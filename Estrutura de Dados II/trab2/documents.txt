@@ -1,0 +1,7 @@
+Documents/biblia.txt
+Documents/dataminer.txt
+Documents/dicionario1.txt
+Documents/dicionario2.txt
+Documents/ia.txt
+Documents/lordofrings.txt
+Documents/matematica.txt

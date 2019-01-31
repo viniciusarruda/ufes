@@ -1,0 +1,559 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[brazil]{babel} 
+\usepackage[utf8]{inputenc} 
+
+\usepackage{amssymb}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+
+\usepackage{indentfirst} 
+\usepackage{listings}
+\usepackage{color}
+\usepackage{graphicx}
+\usepackage{url}
+
+% ---
+% Configurações de Listings
+% ---
+\definecolor{mygreen}{rgb}{0,0.6,0}
+\definecolor{mygray}{rgb}{0.5,0.5,0.5}
+\definecolor{mymauve}{rgb}{0.58,0,0.82}
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+\lstset{
+	backgroundcolor=\color{white},   % choose the background color; you must add \usepackage{color} or \usepackage{xcolor}
+	basicstyle=\footnotesize,        % the size of the fonts that are used for the code
+	breakatwhitespace=false,         % sets if automatic breaks should only happen at whitespace
+	breaklines=true,                 % sets automatic line breaking
+	captionpos=b,                    % sets the caption-position to bottom
+	commentstyle=\color{mygreen},    % comment style
+	deletekeywords={...},            % if you want to delete keywords from the given language
+	escapeinside={\%*}{*)},          % if you want to add LaTeX within your code
+	extendedchars=true,              % lets you use non-ASCII characters; for 8-bits encodings only, does not work with UTF-8
+	keepspaces=true,                 % keeps spaces in text, useful for keeping indentation of code (possibly needs columns=flexible)
+	keywordstyle=\color{blue},       % keyword style
+	language=C,                      % the language of the code
+	otherkeywords={*,...},           % if you want to add more keywords to the set
+	numbers=left,                    % where to put the line-numbers; possible values are (none, left, right)
+	numbersep=5pt,                   % how far the line-numbers are from the code
+	numberstyle=\tiny\color{mygray}, % the style that is used for the line-numbers
+	rulecolor=\color{black},         % if not set, the frame-color may be changed on line-breaks within not-black text (e.g. comments (green here))
+	showspaces=false,                % show spaces everywhere adding particular underscores; it overrides 'showstringspaces'
+	showstringspaces=false,          % underline spaces within strings only
+	showtabs=false,                  % show tabs within strings adding particular underscores
+	stepnumber=1,                    % the step between two line-numbers. If it's 1, each line will be numbered
+	stringstyle=\color{mymauve},     % string literal style
+	tabsize=2,	                   % sets default tabsize to 2 spaces
+	title=\lstname                   % show the filename of files included with \lstinputlisting; also try caption instead of title
+}
+% ---
+
+
+\begin{document} 
+
+
+
+\begin{titlepage}
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % Defines a new command for the horizontal lines, change thickness here
+
+\center % Center everything on the page
+ 
+%----------------------------------------------------------------------------------------
+%	HEADING SECTIONS
+%----------------------------------------------------------------------------------------
+
+\textsc{\LARGE Universidade Federal\\do Espírito Santo}\\[1.5cm] % Name of your university/college
+\textsc{\Large Centro Tecnológico}\\[0.5cm] % Major heading such as course name
+\textsc{\large Departamento de Informática}\\[0.5cm] % Minor heading such as course title
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+\HRule \\[0.4cm]
+{ \huge \bfseries Máquina de Busca}\\[0.4cm] % Title of your document
+\HRule \\[1.5cm]
+
+%----------------------------------------------------------------------------------------
+%	AUTHOR SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}{0.4\textwidth}
+\begin{flushleft} \large
+\emph{Autor:}\\
+Vinicius \textsc{Arruda} % Your name
+\end{flushleft}
+\end{minipage}
+~
+\begin{minipage}{0.4\textwidth}
+\begin{flushright} \large
+\emph{Professora:} \\
+Mariella \textsc{Berger} % Supervisor's Name
+\end{flushright}
+\end{minipage}\\[2cm]
+
+% If you don't want a supervisor, uncomment the two lines below and remove the section above
+%\Large \emph{Author:}\\
+%John \textsc{Smith}\\[3cm] % Your name
+
+%----------------------------------------------------------------------------------------
+%	DATE SECTION
+%----------------------------------------------------------------------------------------
+
+{\large 12 de outubro de 2015}\\[2cm] % Date, change the \today to a set date if you want to be precise
+
+%----------------------------------------------------------------------------------------
+%	LOGO SECTION
+%----------------------------------------------------------------------------------------
+
+\includegraphics[width=58mm]{LogoUfes.png}\\[1cm] % Include a department/university logo - this will require the graphicx package
+
+%----------------------------------------------------------------------------------------
+
+\vfill % Fill the rest of the page with whitespace
+
+\end{titlepage}
+
+
+
+
+
+\begin{abstract}
+Trabalho da disciplina de Estrutura de Dados II, que consiste na implementação 
+de uma máquina de busca utilizando duas estruturas de dados distintas. As 
+estruturas são Tabela de Dispersão e Árvore B. Para o tratamento de colisões 
+da Tabela de Dispersão foram empregados três estratégias: Hashing Linear, 
+Encadeamento e Rehashing. 
+\end{abstract}
+
+%\begin{figure}[hb!]
+%\centering
+%\includegraphics[width=140mm]{hilbert.jpg}
+%\caption{Hilbert.}
+%\end{figure}
+%\hspace{1.5em}Imagem gerada a partir do interpretador desenvolvido.
+
+\newpage
+
+
+
+
+
+
+\section{Introdução} % Este comando faz o tíıtulo da seção.
+%INTRODUÇÃO
+
+Uma máquina de busca é um programa projetado para procurar palavras-chave em documentos e outras base de dados. O google 
+por exemplo, é uma máquina de busca que tem como base de dados a internet para procurar as palavras-chave.
+
+As máquinas de busca surgiram logo após o aparecimento da Internet, com a intenção de prestar um serviço 
+extremamente importante: a busca de qualquer informação na rede, apresentando os resultados de uma forma 
+organizada, e também com a proposta de fazer isto de uma maneira rápida e eficiente. 
+
+A proposta deste trabalho é mostrar diferentes implementações de estrutura de dados para armazenar e buscar palavras-chave 
+de maneira rápida e eficiente, mostrando uma análise e resultados destas implementações.
+
+
+%OBJETIVO:
+\section{Objetivo}
+Aplicar o conhecimento adquirido na disciplina de Estruturas de Dados II para implementar estruturas de dados 
+para armazenamento de grande quantidade de informação e acesso rápido à qualquer informação contida 
+nestas estruturas.
+
+%FERRAMENTAS:
+\section{Ferramentas}
+Os algoritmos foram implementados na linguagem de programação C. Para a compilação foi 
+utilizado o compilador GCC versão 4.7.2 em uma máquina com o sistema operacional Debian 
+GNU/Linux 7.8 (wheezy).
+O código foi escrito utilizando o editor de texto gedit versão 3.4.2.
+Para a depuração do programa, foi utilizado a ferramenta Valgrind versão 3.7.0.
+
+
+\section{Estruturas}
+Para a manipulação dos dados foram utilizado quatro estruturas principais: 
+
+
+\subsection{Documents}
+Estrutura que representa os documentos a serem indexados. Contém o número de arquivos a serem 
+lidos e indexados e um vetor de \emph{strings} que é o nome de cada arquivo.
+
+\begin{lstlisting}[language=C, caption=Estrutura Documents]
+typedef struct
+{
+	size_t size;
+	char** documents;
+} Documents;
+\end{lstlisting}
+
+
+\subsection{Doc}
+Estrutura que representa o documento que uma palavra-chave está. Contém um identificador do arquivo 
+e uma lista de indices que representa a posição de cada palavra-chave no documento.
+
+\begin{lstlisting}[language=C, caption=Estrutura Doc]
+typedef struct
+{
+	size_t docID;
+	List* index;
+} Doc;
+\end{lstlisting}
+
+
+\subsection{Word}
+Estrutura que representa uma palavra-chave. Contém a palavra-chave em si e uma lista de documentos do tipo \emph{Doc} 
+no qual esta palavra-chave se encontra.
+
+\begin{lstlisting}[language=C, caption=Estrutura Word]
+typedef struct
+{
+	char* word;
+	List* doc;
+} Word;
+\end{lstlisting}
+
+
+\subsection{Query}
+Estrutura que representa uma query. Contém o tipo da query, se possui áspas duplas (sinaliza uma pesquisa sequencial) 
+ou se não possui áspas duplas. Contém a query original no formato \emph{wchar} e uma lista de palavras-chave, geradas 
+após o processamento da query original. A lista query tem como informação as palavras-chave no formato ASCII (\emph{char}).
+
+\begin{lstlisting}[language=C, caption=Estrutura Query e QTYPE]
+typedef enum {NONQUOTES, QUOTES} Q_TYPE;
+
+typedef struct 
+{
+	Q_TYPE type;
+	wchar_t* original;
+	List* query;
+} Query;
+\end{lstlisting}
+
+
+\section{Estruturas de Dados}
+O tamanho das tabelas de dispersão foi calculado com base em um fator de carga (\emph{load factor}) de 70 por cento, e em 
+cima deste valor, para diminuir o número de colisões, é gerado o próximo número primo e este é utilizado como tamanho da tabela.
+
+A função de hash utilizada é a \emph{djb2}, criada por Dan Bernstein.
+Sua implementação se encontra a seguir:
+
+\begin{lstlisting}[language=C, caption=Função de hash DJB2]
+size_t hash_function(char* str)
+{
+	unsigned long hash = 5381;
+	int c;
+
+	c = *str;
+	str++;
+	while (c)
+	{
+		hash = hash * 33 + (unsigned long) c;  
+		c = *str;
+		str++;
+	}
+
+	return hash;
+}
+\end{lstlisting}
+
+\newpage
+
+\subsection{Hash Linear}
+O tratamento de colisão por hashing linear se baseia em encontrar o próximo cesto vazio da tabela. 
+A estrutura da hash linear é a seguinte:
+
+\begin{lstlisting}[language=C, caption=Estrutura da Hash Linear]
+typedef struct
+{
+	size_t size;
+	Word** table;
+} Hash_l;
+\end{lstlisting}
+
+
+\subsection{Hash Encadeada}
+O tratamento de colisão por encadeamento se resume à uma lista encadeada em cada cesto da tabela de dispersão.
+Quando houver colisão, a informação deverá ser encadeada na lista existente. 
+A estrutura da hash encadeada é a seguinte:
+
+\begin{lstlisting}[language=C, caption=Estrutura da Hash Encadeada]
+typedef struct
+{
+	size_t size;
+	List** table;
+} Hash_e;
+\end{lstlisting}
+
+
+\subsection{Rehash}
+O tratamento de colisão por rehashing se resume à realizar uma segunda função de hash, e enquanto não encontrar um cesto vazio, 
+esta segunda função de hash é aplicada, gerando uma nova posição de cesto.
+
+A implementação da segunda função de hash se encontra a seguir, e implementa a soma dos valores dos caracteres referentes à tabela ASCII.
+
+\begin{lstlisting}[language=C, caption=Segunda função de Hash]
+size_t hash_2_function(char* str)
+{
+	size_t hash = 0;
+
+	if(str == NULL || *str == '\0')
+	{
+		fprintf(stderr, "String cannot be NULL.\n");
+		exit(EXIT_FAILURE);
+	}
+
+	while(*str != '\0')
+	{
+		hash += (size_t) *str;
+		str++;
+	}
+
+	return hash;
+}
+\end{lstlisting}
+
+
+A estrutura da rehash é identica à estrutura da hash linear.
+
+
+
+\subsection{Árvore B}
+
+A árvore B foi implementada para servir tanto como uma estrutura de busca quanto para ajudar a indexação das palavras.
+No tipo modelo B, o arquivo de palavras-chave é indexado diretamente na árvore B, sem passar por nenhuma outra estrutura intermediária.
+Já nos tipos modelo L, E e R, a árvore B é uma estrutura intermediária para auxiliar o pré-processamento e indexação das palavras-chave.
+A estrutura da árvore B se encontra a seguir:
+
+\begin{lstlisting}[language=C, caption=Estrutura da Árvore B]
+struct btree
+{
+	int leaf;    // Flag indicando se o no e uma folha ou nao. 
+	size_t n;    // Numero de chaves atual do no. 
+	void* keys[MAX];  // Ponteiros para as chaves (informacao da arvore). 
+	struct btree* children[MAX + 1]; // Ponteiros para os nos filhos. 
+};
+\end{lstlisting}
+
+Esta implementação utiliza 101 como valor máximo de chaves por nó e 50 como valor mínimo de chaves por nó.
+
+
+
+\section{Módulo de Indexação}
+O módulo de indexação das palavras foram divididas em três etapas: tratamento de caracteres, pré-indexação armazenando na árvore B e 
+a conversão dos dados da árvore B para a hash definida pelo tipo modelo. Caso o tipo modelo for a árvore B, esta última etapa 
+não é realizada, pois a árvore já estará pronta na segunda etapa.
+
+\subsection{Tratamento de Caracteres}
+Inicialmente, é feito um tratamento dos caracteres lidos dos arquivos, convertendo todos os caracteres com acento para caracteres sem 
+acento. Os caracteres também são convertidos para maiúsculo. 
+As bibliotecas \emph{wchar\underline t.h}, \emph{wctype.h} e \emph{stddef.h} foram amplamente utilizadas para auxiliar a conversão e tratamento de 
+caracteres UTF-8 para caracteres da tabela ASCII.
+
+\subsection{Pré-Indexação}
+Para o processo de pré-indexação, foi utilizado como estrutura de dados uma Árvore B. Esta escolha foi baseada na eficiência que esta 
+estrutura possui para armazenar a informação e na velocidade de busca da informação.
+
+O processo de pré-indexação se baseou em pegar a palavra-chave lida do arquivo (já convertida para ASCII maiúsculo) e 
+verificar se já existe a palavra-chave na árvore, se não, a palavra-chave é inserida de acordo com a estrutura \emph{Word}, contendo 
+o documento em que foi encontrada e a posição dela no documento. Caso a palavra já exista na árvore, é verificado se o 
+identificador do documento da palavra-chave a ser indexada se encontra na lista de documentos da palavra chave da árvore. Se não, 
+este identificador é incluído na lista. Caso contrário a lista de indices daquele documento é atualizada com a adição do índice da 
+palavra-chave a ser indexada. A função que faz este tratamento é a \emph{handle\_word()}, e sua implementação é vista 
+a seguir:
+
+\begin{lstlisting}[language=C, caption=Função handle\_word]
+size_t handle_word(Btree** btree, char* word, size_t doc_id, size_t index)
+{
+	Word* word_in_list;
+	Doc* doc_in_list;
+
+	if((word_in_list = (Word *) binarySearch(*btree, word, cmpStrKey)) == NULL)
+	{
+		word = strdup(word);
+		
+		if(word == NULL)
+		{
+			fprintf(stderr, "Out of memory.\n");
+			exit(EXIT_FAILURE);
+		}
+
+		insert(btree, create_word(word, create_doc(doc_id, create_index(index))), cmpKey);
+
+		return 1;
+	}
+	else
+	{
+		if((doc_in_list = searchInfo(word_in_list->doc, &doc_id, compare_doc)) == NULL)
+		{
+			insertBegList(&word_in_list->doc, create_doc(doc_id, create_index(index)));
+		}
+		else
+		{
+			insertBegList(&doc_in_list->index, create_index(index));
+		}
+	}
+
+	return 0;
+}
+\end{lstlisting}
+
+
+\subsection{Conversão da estrutura}
+Após as palavras serem indexadas na árvore B, os dados devem ser armazenados na tabela de dispersão descrita pelo tipo modelo.
+Para esta conversão, o processo foi simplesmente desmontar a árvore B inserindo cada ponteiro para informação que foi retirado 
+da árvore na tabela de dispersão. 
+A função responsável por este processo é a função recursiva \emph{convertBtree()} e sua implementação se encotra a seguir:
+
+
+\begin{lstlisting}[language=C, caption=Função convertBtree]
+// data: Ponteiro para a tabela de dispersao.                           
+// insert: Funcao para a insercao da informacao na tabela de dispersao. 
+
+void convertBtree(Btree* btree, void* data, void (* insert) (void *, void *))
+{
+	size_t i;
+
+	for(i = 0; i < btree->n; i++)
+		insert(data, btree->keys[i]);
+
+	if(btree->leaf == FALSE)
+	{
+		for(i = 0; i < btree->n + 1; i++)
+			convertBtree(btree->children[i], data, insert);
+	}
+
+	free(btree);
+}
+\end{lstlisting}
+
+
+
+
+
+
+
+\section{Módulo de busca}
+O módulo de busca se baseou em pesquisar cada \emph{query}, composta de uma ou mais palavras-chave na estrutura de dados 
+e retornar a lista de documentos que contém esta \emph{query}. Caso a \emph{query} esteja entre áspas duplas, além de ser verificado 
+a lista de documentos que a palavra-chave está, é também verificado a lista de indices de cada documento, e se a ordem das palavras 
+na \emph{query} for igual à ordem da lista de indices, então a \emph{query} existe naquele documento.
+
+A função central para a busca é a função \emph{intersection()}, que faz a interseção dos dados das listas.
+
+\begin{lstlisting}[language=C, caption=Função de interseção]
+// Faz a intersecao dos dados de duas listas.
+// Ex: A = 0 2 4 6
+//     B = 1 3 6 9 10 2
+//     Lista apos a intersecao de A e B = 6 2 
+
+void intersection(List** a, List* b, int (* equals) (void *, void *), void (* freeInfo) (void *))
+{
+	List* end;
+	void* info;
+	List* new = createEmptyList();
+
+	while((info = removeBegList(a)) != NULL) 
+	{
+		if(isInList(b, info, equals))
+		{
+			insertEndList(&new, &end, info);
+		}
+		else
+		{
+			freeInfo(info);
+		}
+	}
+
+	*a = new;
+}
+\end{lstlisting}
+
+
+
+
+%AVALIAÇÃO E RESULTADOS:
+\section{Avaliação e Resultados}
+
+Para a avaliação dos algoritmos foram indexados os seguintes documentos:
+
+
+\begin{table}[H]
+\centering
+\caption{Documentos para indexação}
+\begin{tabular}{ccc}
+\hline
+Número de palavras & Nome & Tamanho \\
+\hline
+  781258 & biblia.txt      &  4.4 MB   \\
+  30752 & dataminer.txt   &  208.7 kB  \\
+  154442 & dicionario1.txt &  1.02 MB  \\
+  164162 & dicionario2.txt &  1.11 MB  \\
+  246 & ia.txt          &  1.80 kB     \\
+  187982 & losrofrings.txt &  1.0 MB   \\
+  10205 & matematica.txt  &  63.7 kB   \\
+\hline
+\end{tabular}
+\end{table}
+
+
+
+A avaliação do tempo de indexação foi feita utilizando a função \emph{time} disponível por linha de comando nos sitemas linux.
+
+
+\begin{table}[H]
+\centering
+\caption{Tempo de indexação}
+\begin{tabular}{ccc}
+\hline
+Tipo Modelo & Tempo \\
+\hline
+Hash Linear      &   1.471s \\
+Hash Encadeada   &   1.477s \\
+Rehash           &   1.483s \\ 
+Árvore B         &   1.431s \\
+\hline
+\end{tabular}
+\end{table}
+
+
+Para a avaliação da busca, diversas \emph{query} de comprimentos variados foram elaboradas, sendo 18 com àspas duplas e 19 sem 
+àspas duplas, somando um total 216 palavras. O tempo de busca de cada tipo modelo se encontra a seguir:
+
+
+\begin{table}[H]
+\centering
+\caption{Tempo de busca}
+\begin{tabular}{ccc}
+\hline
+Tipo Modelo & Tempo \\
+\hline
+Hash Linear      &   0.728s \\
+Hash Encadeada   &   0.738s \\
+Rehash           &   0.716s \\ 
+Árvore B         &   0.727s \\
+\hline
+\end{tabular}
+\end{table}
+
+
+\newpage
+
+%REFERÊNCIAS BIBLIOGRÁFICAS:
+\section{Referências Bibliográficas}
+\begin{enumerate}
+\item \url{https://www.cs.usfca.edu/~galles/visualization/BTree.html} 
+\item \url{http://www.cse.yorku.ca/~oz/hash.html} 
+\item \url{http://www.aquaphoenix.com/ref/gnu_c_library/libc_311.html} 
+\item \url{http://pubs.opengroup.org/onlinepubs/007908775/xsh/wchar.h.html} 
+\item \url{http://www.gnu.org/software/libc/manual/html_node/Setting-the-Locale.html#Setting-the-Locale}
+\item \url{http://tex.stackexchange.com} 
+\item \url{http://www.inf.ufes.br/~mberger/Disciplinas/2015_2/EDII/}
+\end{enumerate}
+
+
+\end{document}
+
+
+

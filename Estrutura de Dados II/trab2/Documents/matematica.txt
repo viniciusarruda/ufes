@@ -1,0 +1,913 @@
+
+
+Um grande resultado matemático e as suas consequências 
+por JOÃO MOREIRA SALLES 
+
+
+Artigo reproduzido conforme o original publicado em dezembro de 2013. 
+
+Fosse outra a época, causaria espanto apenas moderado se ali mesmo, em pleno jantar, David 
+Mumford puxasse um banjo e começasse uma canção de protesto contra a Guerra do Vietnã. Aos 76 
+anos, alto, magro, de cavanhaque e rabo de cavalo, Mumford tem a suavidade de um pacifista da 
+contracultura. Em março de 2012, ocupava o centro da mesa de um celebrado restaurante na Zona 
+Sul carioca. Ao redor dele, a cúpula do Instituto Nacional de Matemática Pura e Aplicada, o Impa, 
+comemorava a visita do americano à instituição. Mumford é do ramo. Em 1974, recebeu a Medalha 
+
+Fields, a maior honraria da profissão, concedida, desde 1936, a apenas 52 pessoas. 1 ^ 
+
+A conversa pulava de galho em galho quando, da ponta da mesa, um colega comentou com 
+Mumford: "Me disseram que você estava no auditório do Impa hoje à tarde..." Foi como ligar um 
+interruptor: "Que coisa linda, que coisa mais linda..." 
+
+Eles se referiam à fala de um jovem matemático alagoano, Fernando Codá Marques, então com 32 
+anos. Naquela tarde, pela primeira vez em público, Codá demonstrara a solução da Conjectura de 
+Willmore, um problema sobre a natureza de figuras geométricas em forma de anel ou rosquinha. 
+Realizado em parceria com um colega português, o trabalho fora anunciado no mês anterior. Provar 
+"a Willmore" era um sonho de quase cinquenta anos da matemática. Não fora apenas a prova que 
+deixara Mumford tão impressionado, senão também - ou principalmente - o caminho para chegar 
+a ela. Aquilo lhe pareceu de uma beleza profunda. 
+
+Um civil não matemático pediu que explicasse. "Tome a sua mulher", disse Mumford, virando-se 
+para a moça ao lado. "O que o rapaz fez foi jogar um lençol sobre ela. Ela sumiu e ele então começou 
+a torcer as pontas, como um torniquete. O que era apenas um volume foi adquirindo a forma de 
+uma silhueta. Ele continuou a apertar e a cada giro o tecido se colava ainda mais ao volume. De tão 
+colado, acabou virando pele - e sua mulher ressurgiu por trás do lençol." Com um floreio de mão, 
+fingiu operar uma varinha mágica: "O rapaz escondeu o problema para revelar o problema!" Só 
+faltou dizer abracadabra. 
+
+Na cabeceira oposta, outro americano, Harold Rosenberg, geômetra de renome mundial e 
+
+
+
+pesquisador do Impa, sorriu satisfeito. Fora ele que levantara o assunto. Conhecia Codá fazia tempo 
+e sempre apostara em seu talento. "Esse garoto é muito especial", disse à pessoa ao seu lado. 
+
+
+
+Baixo e magro, de feições inconfundivelmente brasileiras, Fernando Codá costuma ter boas ideias 
+no chuveiro. Acredita que as atividades rotineiras deixam o subconsciente livre para ser visitado 
+pelas intuições felizes. "Outro dia eu estava pensando num problema cuja solução podia ser a ou b", 
+ele conta. "Daí fui tomar banho e veio: era c." Boas ideias também lhe ocorrem em sonhos - 
+"sonhos matemáticos", na expressão de um luminar que também os tinha. 
+
+Fazer matemática dando voltas pela sala é outra possibilidade. Quando está sem ideias, 
+simplesmente caminha. Apesar de geômetra, é um desorientado espacial. "Eu nunca sei onde estou 
+nem onde pus as coisas. Minha teoria é que estou sempre pensando em matemática" - e pensando- 
+a em quatro ou mais dimensões, acrescentaria alguém que quisesse refinar a hipótese, lembrando 
+que a nós o mundo se apresenta em apenas três. 
+
+Como todos os matemáticos que já se manifestaram sobre a psicologia das descobertas, Codá é 
+guiado em suas intuições pelo sentimento da beleza, "aquilo que dito de maneira clara e precisa tem 
+grande poder de explicação", na síntese do matemático chinês Shing-Tung Yau. "Definir essa beleza 
+é algo subjetivo", diz Codá, "mas alguns componentes precisam estar presentes: simplicidade, 
+simetria, unidade." Simplicidade, por razões óbvias; simetria, por reduzir a complexidade; e 
+unidade, porque em matemática poucas coisas são mais valorizadas do que descobrir parentescos 
+entre objetos aparentemente sem nenhuma relação entre si - por trás de muitos, um só. Epluribus 
+unum. 
+
+Ele fala como se sua voz andasse na ponta dos pés, um traço menos de timidez do que de mansidão. 
+Se fosse super-herói, aquietaria as tempestades com sua serena presença. Nasceu em 1979, em São 
+Carlos, interior de São Paulo, onde os pais, ambos engenheiros, faziam mestrado. Já completara 1 
+ano quando voltaram todos para Maceió. Mais tarde morariam quatro anos em Porto Alegre, 
+durante o doutoramento dos pais. É o mais velho de três irmãos. 
+
+Desde cedo mostrou inclinação para as ciências. "Rigor e abstração era o que me atraía. Em 
+matemática, você sabe quais são as regras do jogo e com papel e caneta resolve sozinho", explica. 
+"São verdades sem ambiguidade, não podem ser contestadas." Jamais gostou de nada que tenha 
+sabor prático. Como tantos matemáticos, busca a solução de problemas sem se preocupar se eles 
+têm utilidade. O impulso é essencialmente estético - o amor pelos objetos que estuda, pela beleza 
+que encerram - e intelectual - testar o alcance do raciocínio lógico. Não aprendeu a dirigir nem a 
+andar de bicicleta. Nadar seria útil a quem cresceu em Maceió; ele não sabe. Talvez tivesse 
+aprendido se vivesse no sertão, longe de todo corpo d'água. 
+
+Jogou muita bola descalço na rua e chutava com as duas pernas. Torce pelo Vasco e pelo CSA e 
+discute futebol em mesa de bar, inclusive "futebol antigo: quem era melhor, Romário ou Ronaldo". 
+Considera que seu maior talento é totó (ou pebolim): "Nunca encontrei ninguém melhor do que eu, 
+talvez só o meu irmão." 
+
+Na adolescência foi um jogador aplicado de xadrez. Gostava mais de estudar o jogo do que de jogá- 
+lo. Depois, tomou-se de amores pela sinuca. Comprou livros e estudou a estratégia. Dali passou ao 
+
+
+
+pôquer. De novo, abasteceu-se de conhecimento e começou a estudar partidas no YouTube. 
+Participava de torneios no Jardim Botânico do Rio em que mais ganhava do que perdia. Fazia 
+contas e calculava probabilidades, o que lhe dava vantagem sobre a maioria dos adversários, mas 
+não sobre os profissionais. A dificuldade maior estava no "aspecto humano" - "o teatro do blefe", 
+como diz, cuja frequência ótima tentou compreender, "não muito, não pouco". 
+
+Costuma ler antes de dormir. Em setembro passado, dedicava-se a um livro sobre física e, antes, a 
+uma biografia de Lincoln. "Livros em que eu possa aprender alguma coisa", explica, numa clara 
+infração de seu viés antiutilitário e banindo quase toda a ficção. 
+
+(Os matemáticos têm o traço adorável de não se constrangerem em dizer "isso eu não sei", frase que 
+repetem com frequência. Contudo, há nessa refrescante franqueza certo desdém por tudo aquilo 
+que não se conforma às categorias de certo ou errado. Ambiguidades são deixadas de lado por não 
+serem objeto do raciocínio lógico. As vastas regiões da vida mental de cujas contradições as 
+humanidades nos dão notícias parecem excluídas dos interesses de boa parte deles. Não espanta 
+que Codá tenha dificuldade em compreender as sutilezas do "teatro do blefe".) 
+
+Gosta muito de cinema - Woody Allen, Tarantino - e de séries americanas de tevê. Pela máfia 
+italiana atravessa noites em claro. No seu panteão resplendem os personagens de Scorsese e 
+os Sopranos, porque até os canalhas precisam ser lógicos: "Gosto por causa das regras. Você pode 
+não concordar com elas, mas sabe como proceder. Não é como a máfia russa, que chega 
+metralhando todo mundo." 
+
+Tudo considerado, é um homem de interesses vários e fugidios. "Sim, eles passam", confirma. "A 
+única coisa que permanece é a matemática, que é fixa, uma paixão verdadeira." 
+
+O alagoano Krerley Oliveira, professor do Instituto de Matemática da Universidade Federal de 
+Alagoas, em Maceió, tem a mesma idade de Codá. Conheceu-o na UFAL. Codá acabara de tirar o 
+primeiro lugar geral no vestibular de Alagoas, feito que dava direito a uma bolsa de iniciação 
+científica, e, embora houvesse prestado para engenharia, começou a rondar o Departamento de 
+Matemática. Oliveira, que se preparava para começar o mestrado no Impa, falou-lhe da instituição, 
+e ficou nisso. "Ele não me chamou muito a atenção", lembra-se. "Na época, eu sabia bem mais 
+matemática do que ele. Além do quê, Fernando falava pouco." 
+
+Como orientador na iniciação científica coube ao novato o professor Hilário Alencar, tipo robusto 
+saído de alguma saga sertaneja. Doutor pelo Impa, é uma das forças que movem a matemática na 
+UFAL. "Conheço o Fernando desde criança, sou colega do pai dele aqui", diz, referindo-se a 
+Severino Marques, professor de engenharia da universidade. "Chegou muito quieto, muito calado. 
+Pedia um problema, ia para casa resolver. Com o tempo, percebi que era um excepcional 
+disfarçado", alguém que, na tipologia de Alencar, não bota banca do próprio valor. 
+
+Por sugestão dele, Codá começou a frequentar aulas de matemática avançada, e logo correu pela 
+universidade a notícia de um garoto que andava sem cadernos e jamais fazia anotações. Chegava 
+um pouco antes do horário, sentava na primeira fila e não abria a boca. Em seguida, gabaritava as 
+provas. Intrigado, Alencar entregou-lhe um livro puxado de cálculo. Codá sumiu por um mês e 
+reapareceu com perguntas pontuais. "Ele tinha resolvido todos os exercícios, sem tormenta, não 
+parecia esforço", diz Alencar. A conclusão era inescapável: "Ele não vai ficar aqui." Alencar escreveu 
+ao Impa indicando Codá para o curso de verão e pela última vez usou "todos os máximos" para 
+descrever um aluno. 
+
+
+
+Em 1997, aos 17 anos, Codá partiu para o Rio. Alencar o visitou no Impa pouco depois. "Ele veio na 
+minha direção com um sorriso de orelha a orelha." Inscrevera-se em dois cursos, quando o normal 
+seria apenas um, e receberia conceito máximo em ambos. Terminou o verão sem nenhuma dúvida 
+sobre o que queria ser e, embora não cursasse nem a graduação em matemática, foi convidado a 
+entrar no mestrado. 
+
+Um ano depois, em 1998, Elon Lages Lima, alagoano de Maceió, estava na biblioteca do Impa 
+quando lhe apareceu o novo aluno. "Ele tinha acabado de se mudar para o Rio e me disse: 'Olá, 
+professor, meu nome é Fernando Codá Marques, sou de Maceió. O senhor vai dar um curso em 
+março?'" Lima reconheceu o sobrenome: "O bisavô dele era um bom alfaiate em Maceió - Pedro 
+Codá, um homem digno e corretíssimo." Lima respondeu que, sim, ofereceria uma disciplina de 
+doutorado. "Estou com vontade de fazer." O professor o desaconselhou vivamente, mas Codá se 
+matriculou assim mesmo. "É absolutamente impensável que um garoto no segundo ano de 
+engenharia faça um curso de doutorado no Impa e se saia brilhantemente", comentou. Pois foi o 
+caso. 
+
+
+
+Fernando Codá é geômetra. Significa, pelo que diz o dicionário, que estuda "o espaço e as figuras 
+que podem ocupá-lo". É uma afirmação de cujas consequências monumentais raríssimas pessoas se 
+dão conta. Espaços, qual ecossistemas, permitem que certos tipos de objeto existam e que outros, 
+não. Uma bola de futebol exige três dimensões para ser viável. Elimine-se a da altura e ela será 
+imediatamente esmagada, como se um elefante lhe tivesse caído por cima. Dimensões fazem coisas 
+esquisitas com os objetos. Oprimem, libertam, negam, autorizam. Como uma casa de espelhos, elas 
+nos confundeme alteram nossa percepção. Aforma como estamos no mundo e o percebemos - 
+nossa existência e consciência das coisas - decorre essencialmente da geometria. 
+
+Em 1884, o diretor de uma escola inglesa publicou um livrinho que os matemáticos adoram e cujo 
+objetivo era tornar isso claro. É um clássico da fabulação lógica, a exemplo de Alice no País das 
+Maravilhas. Planolândia, como o título sugere, descreve um reino em duas dimensões. Seus 
+habitantes - retas, triângulos, quadrados, polígonos e círculos - só dispõem de duas direções para 
+se mover. Podem ir para a frente e para trás ou para a direita e a esquerda (e respectivas 
+combinações, é claro: sudeste, noroeste etc). Em Planolândia os elevadores e a pesca submarina 
+não fariam sentido, dado que ali ninguém sobe ou desce. É impossível erguer-se acima do plano ou 
+mergulhar abaixo dele. No mais, a população planolandense trabalha, passeia, recebe em casa, 
+acompanha as deliberações do Parlamento e as sentenças dos tribunais. Vive-se ali a vida plana, em 
+suma. 
+
+Uma das graves implicações dessa condição geométrica é que o típico planolandense não é capaz de 
+enxergar, de uma só mirada, a forma do que tem diante de si. Mulheres (linhas retas, de temidas 
+extremidades perfurantes), burgueses de boa cepa (quadrados, como o narrador) ou membros da 
+mais alta casta local (os sacerdotes-círculos), todos se apresentam aos olhos de um conterrâneo 
+como uma só figura. O narrador explica: 
+
+Nada era visível para nós, nem poderia ser, salvo as Linhas Retas, e demonstrarei sem demora 
+por que era necessariamente assim.[...~] Tome, por exemplo, um Triângulo equilátero, que 
+representa entre nós um Comerciante da classe respeitável. A figura 1 representa o 
+
+
+
+Comerciante como você o veria quando estivesse inclinado sobre ele; as figuras 2 e 3 
+representam o Comerciante como você o veria com os olhos mais próximos do nível da mesa, 
+ou quase ao nível dela; e, se os seus olhos estivessem no nível da mesa (e é dessa forma que o 
+vemos em Planolândia), tudo o que você veria seria uma linha reta. 
+
+O narrador sofrerá uma reviravolta existencial, científica, estética e filosófica ao ser abduzido por 
+uma esfera e levado a conhecer a terceira dimensão, aquela que permite pairar acima das coisas. 
+Nessa nova condição flutuante, ele não só enxergará simultaneamente os três lados do triângulo, 
+como também (horror dos horrores) poderá olhar diretamente dentro de cada corpo fechado. 
+
+Pinte um pontinho no centro do triângulo acima; digamos que represente a bexiga do tal 
+comerciante. Pronto: a dimensão adicional de que agora desfruta Quadrado transforma seus olhos 
+em tomógrafos. O que antes estava dentro, agora se expõe à vista. Órgãos internos viram externos. 
+
+(Por simples inferência, deduz-se que uma quarta dimensão teria igual efeito sobre nós. Veríamos o 
+interior das coisas, tudo o que hoje está protegido por peles, superfícies, muros, cascas. Parece 
+inalcançável à imaginação, mas é perfeitamente razoável à luz da lógica.) 
+
+Quadrado, perplexo, se crê vítima de um génio perverso. Faltam-lhe os recursos intelectuais e 
+imaginativos para compreender o quanto a geometria determina a percepção. Para que tome 
+consciência das limitações de sua visão planar, ele será conduzido aos mundos de dimensão 
+inferior: o reino de uma dimensão, onde só moram Linhas, e - ponto alto do livro - o de dimensão 
+nenhuma. Trata-se de Pontolândia, justamente, um mundo de stasis, negação de todo movimento. 
+
+Esfera apontará a Quadrado um pobre cidadão local, um grãozinho de nada, que isolado de tudo 
+dizia a si mesmo: "Infinita beatitude da existência! Ele é, e não há outro além Dele!" A quem o 
+ponto se refere quando diz ele?, pergunta Quadrado. A si próprio, esclarece o guia. "Observe sua 
+perfeita satisfação consigo mesmo. Não pode conceber nada além dele mesmo. Não conhece 
+extensão, largura, altura, pois não tem experiência delas. Não tem conhecimento nem do número 2, 
+não tem ideia da pluralidade. "Alheio a tudo, o serzinho prosseguia, cheiíssimo de si: "Ele preenche 
+todo o espaço e aquilo que preenche Ele é. É o Um e é o Tudo. Ah, a felicidade, ah, a felicidade de 
+Ser!" 
+
+Quando pedi a Fernando Codá sugestões de livros que me ajudassem a compreender o que ele faz, 
+recebi uma lista de quatro títulos. Dois deles tratavam de problemas clássicos da área. Os outros 
+dois tinham os seguintes títulos: A Forma do Espaço Interior: A Teoria das Cordas e a Geometria 
+das Dimensões Ocultas do Universo, do medalhista Fields Shing-Tung Yau, e A Forma do Espaço, 
+do matemático Jeffrey R. Weeks. 
+
+Havia ali uma sugestão: e se nossas percepções não forem muito diferentes das do pontinho da 
+fábula? E se vemos apenas o que a geometria na qual existimos nospermite enxergar? E se o 
+universo onde estamos (onde tudo está) não for apenas um lugar amorfo e infinito, mas 
+um objeto - uma esfera, uma rosquinha, um cone - dentro do qual levamos nossas vidas? Por fim, 
+pirueta mental das piruetas mentais, e se à nossa volta existirem dimensões adicionais que nem 
+sequer intuímos? "Ah, a felicidade do Ser", diríamos então, enfiados em nosso mundo estreito, 
+enquanto à nossa volta, despercebidas, dimensões entram por dentro das coisas, desfolhando-as 
+como alfaces. 
+
+
+
+Como seu gabinete fica no 3 0 andar e o elevador estivesse com defeito, Manfredo do Carmo marcou 
+a conversa na lanchonete do Impa, no térreo. Aos 85 anos, achou melhor não se aventurar pelas 
+escadas. Possui um verbete na Wikipédia em alemão, mas não na lusófona, o que é bom para os 
+alemães e ruim para nós. No Brasil, Manfredo é considerado o pai da geometria diferencial, ramo 
+da matemática que une o cálculo à geometria e sem o qual a Teoria da Relatividade de Einstein não 
+teria sido formulada. Surpreendentemente, Manfredo também é de Maceió, o que só adensa o 
+mistério dessa particular concentração de matemáticos. "É o sururu", responde com uma risadinha. 
+(Dias depois, Hilário Alencar insistiria na tese: "Sururu tem muito fosfato.") 
+
+Foi com Manfredo que Codá descobriu a geometria. "Ele diz que fui seu professor. Sim, fui, mas só 
+parcialmente", afirma. "Você tem de entender que existem os matemáticos mutantes. Eles 
+não aprendem. Quando começam a fazer uma coisa, recompõem o negócio. Fernando é um deles." 
+Codá concluíra o mestrado em apenas um ano e iniciara o doutorado com o pé no acelerador. 
+Estava no segundo ano quando Manfredo sugeriu que fosse para o exterior. Uma área de ponta na 
+geometria - a análise geométrica, desenvolvida na década de 70 por Yau, autor de um dos livros 
+que Codá viria a me recomendar - carecia de especialistas no Brasil. "Certo tipo de pessoa deve ir 
+para fora, aprender uma coisa nova e trazê-la para cá", disse-lhe o professor. 
+
+Codá gostava de ouvir os mais velhos. Manfredo lhe aconselhou a Universidade Cornell, no estado 
+de Nova York, onde lecionava um ex-aluno do Impa, o colombiano José Chepe Escobar, que, além 
+de grande matemático, era afetivo e extrovertido, ligado à vida. Havia sido campeão colombiano de 
+saltos ornamentais. Dançava salsa. Possuía traços importantes para ajudar Codá na adaptação ao 
+país estrangeiro. Depois de fazer as provas e passar raspando na de inglês, Codá soube às vésperas 
+da viagem que Escobar enfrentava uma recidiva do câncer que combatera na juventude e talvez não 
+pudesse acompanhá-lo até a conclusão do doutorado. Seria o caso de refazer os planos, buscar 
+outro orientador. Codá não quis. Já empenhara a palavra. Fez as malas e foi. 
+
+Da primeira vez que os colegas o convidaram para ir ao cinema, deu-se conta, na sala escura, de que 
+filme em inglês não tinha legenda ali. Não entendeu quase nada. Pensava sem parar no Brasil e 
+sentia falta dos pais. Comprou guaraná pela internet. Tentou em vão instalar uma antena para ver 
+futebol brasileiro. Acabou desenvolvendo o gosto pela sinuca e foi um dos fundadores do primeiro 
+clube do jogo em Cornell. 
+
+Tornou-se doutor em 2003, três anos depois de chegar. Tinha agora um currículo sólido e iniciara 
+uma boa rede de relacionamentos no mundo da geometria diferencial. Ainda não era, porém, um 
+matemático, ao menos não no sentido em que seus pares compreendem a profissão: alguém que 
+parte sozinho em busca de problemas importantes. A praxe, depois do doutoramento, é tentar um 
+pós-doc num centro de pesquisa graduado. Codá não fez isso. Sua missão, como a entendera, era 
+trazer novos conhecimentos para a casa. Voltou. 
+
+"O Brasil é uma questão para ele", confirma o português André Neves, 38 anos, do Imperial College 
+de Londres, amigo e colaborador mais frequente de Codá. "Veja essa volta. Eu entendo: ele era 
+grato ao Impa e queria retribuir. Acontece que existe uma razão para fazer pós-doc. É essencial 
+para estarmos sozinhos, a propor nós mesmos, sem ajuda, a matéria de nossa pesquisa. Faz parte 
+da carreira. Fernando deixou voluntariamente a luz da ribalta. Conheço poucos matemáticos que 
+resistiriam ao retorno ao país de origem. É suicídio académico." 
+
+
+
+"Quis ser pesquisador do Impa no minuto em que entrei aqui", diz Fernando Codá em sua sala. O 
+ambiente é ordeiro, com cada coisa em seu lugar. "Quando vim para o curso de verão aos 17 anos, 
+pela primeira vez vi que existiam pessoas como eu. Todo mundo respirava matemática aqui. Fiquei 
+encantado." Faltava um ano para defender a tese em Cornell quando Jacob Palis, então diretor do 
+Impa, avisou que queriam contratá-lo. Codá se decidiu logo - não buscaria uma posição de pós-doc 
+e regressaria ao país para formar jovens matemáticos -, embora sabendo "que não era o caminho 
+normal" e que haveria custos. "Quando voltei, saí do radar. Para chamar atenção o trabalho feito 
+aqui tem de ser excepcional." Faltavam-lhe interlocutores. "O pessoal do Impa sugeriu que eu 
+trouxesse essa linha de pesquisa para o Brasil, eu trouxe e era só eu", recorda-se. A pesquisa era 
+solitária, e como fosse quieto pouca gente sabia no que estava trabalhando. Seis meses depois do 
+retorno, uma perda pessoal - seu orientador em Cornell, José Chepe Escobar, de quem se tornara 
+muito próximo, sucumbira ao câncer - interrompeu o contato com o mundo académico de lá. 
+Isolado, passou a temer pela qualidade do trabalho. "Fiquei uns anos perdido. Nessa fase a gente é 
+muito imaturo." Tinha 24 anos. 
+
+Na época, estreitou a amizade com Marcos Petrúcio, alagoano de União dos Palmares que viera 
+com ele de Maceió para o curso de verão. Quando Codá regressou de Cornell, Petrúcio ainda 
+concluía o doutorado no Impa e Codá foi seu professor. "Sabe, ele é muito especial", diz Petrúcio 
+como se o fato não cansasse de espantá-lo. "Ele era genial e não mostrava. Desde os tempos de 
+aluno, parecia o mais normal de todos, e eu não sei se isso não era um esforço deliberado para não 
+ficar estigmatizado como o cara, sabe? Fernando não se exibe, não fala mal das pessoas, é um 
+homem justo." 
+
+Em 2005, por achar que a matemática estava sofrendo, aceitou um convite para passar um ano em 
+Stanford, universidade californiana que, segundo o colega de Londres André Neves, é a Terra 
+Prometida da análise geométrica. Assistiria a cursos de Richard Schoen, um dos grandes nomes da 
+área. Orientador de José Escobar, Schoen era ex-aluno e colaborador de Yau, o sumo sacerdote da 
+disciplina. 
+
+"Quando chegou", disse Schoen por e-mail, "Fernando havia escrito uma excelente tese para José 
+Escobar. Já era um expert em equações diferenciais parciais e sabia um bocado sobre curvatura 
+escalar", dois tópicos centrais da análise geométrica. "Aqui ele entrou em contato com uma gama 
+maior de problemas e de métodos. A meu ver, 'gosto' é um ingrediente essencial para se fazer boa 
+matemática, e penso que a passagem de Fernando por Stanford o ajudou a desenvolver um sentido 
+para os problemas que passou a escolher. Para mim, estava evidente que Fernando tinha uma 
+mente muito aguda, capaz de olhar diretamente para o coração de um problema. É uma pessoa 
+muito excepcional." 
+
+
+
+Num vídeo disponível na internet, um senhor de cabelos brancos se dirige a uma turma de jovens 
+numa sala de aula. Apesar das costas vergadas, fala com entusiasmo, indo de lá para cá diante do 
+quadro-negro. Tem 90 anos e é Eugénio Calabi, geômetra ítalo-americano cujo trabalho abriu 
+
+
+
+vistas imensas para a física contemporânea. 
+
+Calabi gosta de brincar com os novatos: "Você é capaz de riscar uma linha vertical com o dedo? 
+Muito bem. E se trocar de mão? É capaz de riscar outra? Ótimo. Essas duas linhas são paralelas?" O 
+aluno olha para os riscos imaginários e responde que sim, são paralelos. Com um risinho maroto, 
+Calabi arremata: "Parabéns. Você acredita que a Terra é plana." 
+
+O ponto é que a percepção local do espaço determina a forma como o imaginamos em escala 
+universal. E aí, erramos. Tome uma linha e trace duas perpendiculares a ela. Serão paralelas e, em 
+Planolândia, não se cruzarão. Agora pense na linha do Equador. Trace nela duas perpendiculares e 
+prolongue-as em direção ao norte. Elas se encontrarão no polo. 
+
+Por séculos, geómetras e geógrafos tentaram desenhar um mapa sem distorções que funcionasse 
+como um decalque perfeito do mundo. Coube ao suíço Leonhard Euler provar, em meados do 
+século XVIII, que tal mapa era uma impossibilidade matemática. Os mapas têm duas dimensões, 
+enquanto a Terra é esférica. Nela, vigem outras leis geométricas. Quem já tentou embrulhar uma 
+bola de futebol sabe que é impossível não produzir dobras. Todo mapa é um cabo de guerra entre 
+orientação e escala. Preservando-se uma, perde-se a outra. 
+
+Euler foi o maior matemático de seu tempo. Ao morrer, em 1783, deixava neste mundo um sucessor 
+à altura, o alemão Carl Friedrich Gauss, então com 6 anos. Gauss viria a fazer uma proposição 
+espantosa: não só os objetos se dobram, senão também o espaço. "A contribuição dele é 
+fundamental", diz Codá. "Até Gauss, a ideia de curvatura era o quão rápido você se dobra no 
+espaço. Depois dele, o espaço também se curva. Era possível calcular isso." 
+
+Depois de ler Gauss, uma formiga geômetra, sem jamais tomar distância do chão em que vive, seria 
+capaz não só de deduzir que o solo por onde caminha é curvo, mas o quão curvo ele é. Formigueiros 
+espalhados pelo globo, ao coligir os dados da medição de seus respectivos solos, saberiam que a 
+Terra é redonda. 
+
+Em junho de 1854, um rapaz tímido de 27 anos ocupou a tribuna do anfiteatro da Universidade de 
+Gõttingen. Submetera uma lista de três tópicos à banca do exame oral que o habilitaria a um cargo 
+na área de matemática. Contrariando as expectativas do candidato, Gauss, o decano dos presentes, 
+doente e a poucos meses da morte, escolheu o terceiro deles, "Sobre as hipóteses que estão na base 
+da geometria". No fim daquele mesmo dia, um colega descreveria a perplexidade e a emoção do 
+velho matemático diante daquele trabalho de cerca de dez páginas e uma só equação. O autor - 
+Bernhard Riemann - viveria apenas mais doze anos. Suas obras completas estão reunidas num 
+volume modesto "que ocupa menos de 3 centímetros de estante", como ensina o matemático 
+americano Robert Osserman em seu livro A Poesia do Universo. Ideias contidas ali abriram campos 
+inteiros de pesquisa. Várias continuam a ser vigorosamente exploradas mais de 100 anos após a 
+morte de seu autor. 
+
+Naquele dia de junho, Riemann falou de espaços e curvaturas. "Ele tomou a ideia de Gauss e deu 
+um salto de abstração", explica Codá. Se a formiga é capaz de andar sobre a superfície e entender a 
+geometria de onde pisa, por que não imaginar que todo o espaço que nos cerca, não apenas a 
+superfície em que pisamos, contém as suas curvaturas? Mais: por que não imaginar que espaços, 
+com suas curvaturas, existem não apenas em três dimensões, mas em quatro (onde veríamos 
+nossosórgãos internos), cinco (o interior deles?) ou quantas mais quisermos conceber? A nós tudo 
+isso confunde, mas Riemann provou que essas ideias eram matematicamente plausíveis. De um 
+
+
+
+golpe, embora não soubesse disso, forneceu a sustentação matemática para que nossa concepção de 
+universo virasse de ponta-cabeça. 
+
+A física de Newton tratava o espaço como pano de fundo passivo. Sua estrutura não exerceria 
+nenhuma influência sobre os objetos que existiam nele. Sessenta anos depois da preleção de 
+Riemann, Einstein lutava para conciliar a sua teoria da relatividade especial, que não incluía 
+gravidade, com a mecânica newtoniana, na qual ela é central. Um amigo geômetra lhe apresentou a 
+geometria riemanniana, desconhecida então dos físicos, recomendando que tomasse cuidado 
+porque aquilo era "uma confusão dos diabos". Einstein percebeu que o espaço curvo de Riemann 
+era a própria gravidade. 
+
+Uma bigorna jogada no centro de um lençol esticado deformará o tecido; solte uma bolinha de gude 
+na borda e ela correrá naturalmente para o centro. Não são forças misteriosas que a impelem a se 
+mover. É apenas a geometria. O mesmo vale para o espaço. Se a luz faz curvas - e ela faz - é porque 
+busca o caminho mais curto entre dois pontos. Num espaço euclidiano, ou seja, infinitamente plano 
+- em Planolândia -, esse caminho é a linha reta. Mas será outro em espaços com curvatura 
+diferente de zero. Ela fará curvas em função da massa que deforma o espaço - a esse fenómeno se 
+dá o nome de gravidade. Um físico o descreveu assim: "A massa maneja o espaço, ensinando-o a se 
+curvar; o espaço maneja a massa, ensinando-o a se mover." Geometria é gravidade, gravidade é 
+geometria. 
+
+Se já ajustamos nosso aparato mental para a ideia de uma Terra curva, ainda não conseguimos 
+estender essa noção ao cosmos. Ainda o imaginamos plano e infinito. É possível que não seja nem 
+uma coisa nem outra. Qual será então a forma deste lugar onde estamos? "Os cosmologistas vêm 
+estudando toda uma gama de superfícies de três dimensões, na esperança de encontrar a que 
+melhor corresponderia à forma do universo logo depois do Big Bang", escreveu Osserman em seu 
+livro de 1995. A esfera e o anel - a popular rosca de padaria - são candidatos, diz ele. Não custa 
+então repetir: segundo o autor, nós, a formiga, a bigorna, esta revista e todas as estrelas do universo 
+podemos estar dentro de uma esfera ou, quem sabe, de uma rosquinha. 
+
+
+
+Era 1952 e o jovem estudante de matemática Elon Lages Lima estava na biblioteca da Universidade 
+do Brasil (hoje UFRJ) quando entraram os matemáticos Lélio Gama, de 60 anos, Leopoldo Nachbin 
+e Mauricio Peixoto, esses na faixa dos 30. "Acabamos de criaro Impa", anunciaram. Depois de 
+protestar contra o nome - "Põe um R no final, que ao menos fica impar, é melhor" -, Lima 
+perguntou da finalidade. "Preparar a matemática para o Brasil." 
+
+Com venezianas descidas, luzes apagadas e livros por toda parte, acomodado numa cadeira 
+acolchoada, Lima fala olhando para o teto de sua sala: "O Impa cresceu sustentado pelo idealismo 
+desses três caras, aos quais me juntei." Foi o primeiro bolsista do centro, seguindo dali para a 
+Universidade de Chicago, onde faria o doutorado. Em 1964, estava de volta. 
+
+Manfredo do Carmo e Jacob Palis se doutoraram em Berkeley, onde se conheceram. "Até a criação 
+do Impa", conta Manfredo, "os matemáticos brasileiros eram meia dúzia e faziam a pesquisa lá fora. 
+Jacob e eu pensávamos numa matemática realizada aqui por gente que não precisaria mais deixar o 
+país." Obtido o título, Manfredo retornou. 
+
+
+
+Jacob Palis, mineiro de Uberaba, iniciou o doutorado em Berkeley em 1964. Lá, leu o livrinho sobre 
+os Laboratórios Cavendish, em Cambridge, onde foi descoberta a dupla hélice do DNA. "Me 
+influenciou muitíssimo", recorda-se. "O Impa podia reproduzir aquele ambiente de vitalidade, 
+gente trocando ideias, visitas de prémios Nobel." Em 1968, ele também voltou. 
+
+Àquela altura, o Impa já estabelecera a tradição de trazer grandes matemáticos para temporadas no 
+Rio. "Era gente de vanguarda", diz Palis, "então existe uma força e uma pureza que vêm lá de trás, 
+desde os fundadores." 
+
+Quando se pergunta a Fernando Codá quais são os matemáticos que admira, ele imediatamente cita 
+Manfredo, Lima e Palis. "Eles desenvolveram campos que eram incipientes por aqui. Tiveram um 
+impacto." Num vídeo disponível no site da instituição, ele entrevista Manfredo. É tocante, o velho 
+professor diante do jovem que é fruto do esforço de sua vida. Codá: "O senhor é reconhecidamente 
+o pai da geometria diferencial no Brasil. Teve 26 alunos de doutorado." Manfredo: "Se o legado é 
+esse, então é bom, porque é parte do sonho. Passamos de uma matemática de nível um para outra 
+de nível três ou quatro. Então eu passo tranquilamente esse legado adiante para jovens geómetras 
+feito você, porque já está na hora de eu descansar." 
+
+Em 12 de junho deste ano, o matemático francês Cédric Villani, Medalha Fields 2010, publicou 
+no Le Monde um artigo no qual exalta o retorno à casa dos matemáticos peripatéticos. "De volta ao 
+país de origem, esses expatriados por vezes fundam instituições que abalam o mapa da ciência 
+internacional. É o caso do Impa. Nascido do sonho louco de três matemáticos brasileiros nos anos 
+50, o instituto é hoje um dos centros mais renomados da área, com seu histórico de demonstrações 
+de conjecturas célebres e alguns dos jovens matemáticos mais brilhantes do mundo, a exemplo de 
+Artur Avila e Fernando Codá Marques." 
+
+Quem deixasse a sala de Codá depois da primeira conversa para este perfil veria Artur Avila 
+caminhar pelos corredores do Impa na companhia do israelense Elon Lindenstrauss, medalhista 
+Fields que chegara ao Rio naquela manhã. Falavam animadamente e trocavam ideias sobre 
+matemática. 
+
+
+
+Terminado o ano em Stanford, Codá traria para o Impa novas ideias e uma rica rede de 
+relacionamentos que incluía alguns dos mais atilados pesquisadores de sua área. Nos anos 
+seguintes, sozinho ou em colaboração, resolveria pelo menos quatro problemas de primeira 
+grandeza. 
+
+Em 2009, com Schoen e Marcus Khuri, da Universidade de Stony Brook, resolveu uma conjectura 
+aberta duas décadas antes pelo próprio Schoen. Diz respeito às coisas que acontecem quando se 
+salta de uma dimensão para a outra. Há consequências quando uma nova dimensão se abre a 
+nossos olhos. Equilibrar-se no meio-fio é fácil; já na borda de um arranha-céu, não. Também 
+objetos matemáticos sofrem ao avançar pelo mundo multidimensional. Codá provou que tudo 
+transcorre bem até a dimensão 24 - não há vertigem, por assim dizer. "Isso ele fez sozinho", afirma 
+Marcos Petrúcio. "Na segunda parte do trabalho, ele, o Khuri e o Schoen verificaram que a partir da 
+dimensão 25 a coisa encrenca." Como uma cápsula espacial submetida a forças insustentáveis, ao 
+passar de 24 para 25 o objeto se estilhaça. Ninguém esperava que a geometria se comportasse tão 
+
+
+
+mal. 
+
+
+
+Os dois resultados seguintes estão diretamente ligados à relatividade geral. Como gravidade e 
+geometria se equivalem, é possível falar da primeira estudando apenas a segunda. Foi o que fizeram 
+Schoen e Yau em 1979, quando provaram que a estrutura do universo é estável. Não era necessário 
+que fosse assim. (Nem todo prédio fica eternamente de pé.) Mas qual universo, com que forma? 
+Assinado pelo alemão Simon Brendle, de Stanford, em parceria com Codá e Neves, um teorema 
+publicado em 2011 demonstrou que um modelo de espaço esférico não se sustenta; com o tempo, 
+degenera e rui. Embora o problema tenha sido atacado como questão puramente matemática, é o 
+caso de perguntar: dos candidatos à forma do universo, a esfera está desde já excluída? Codá hesita. 
+No máximo, admite, "provamos um resultado matemático que possui uma forte analogia com 
+algumas questões da física". Isso, por escrito. Num bar de praia em Maceió, aquiesce, embora quase 
+inaudível: "Tudo bem, acho que você pode pôr isso aí..." 
+
+O terceiro grande resultado nasceu no curso de relatividade de Richard Schoen. Há maneiras boas e 
+más de construir um viaduto. As primeiras evitam que ele venha ao chão, as segundas causam 
+desastre. "Einstein mostrou que o universo evolui com o tempo", explica Codá. Em teoria, haverá 
+alguns universos fisicamente razoáveis, outros não. Schoen se perguntou se haveria muitos 
+universos razoáveis, no sentido de suas propriedades serem distintas a ponto de torná-los 
+irredutíveis uns aos outros. Codá provou que não. Lá onde houver universos razoáveis, eles serão 
+matematicamente idênticos. O Teorema da Conexidade do Espaço é de 2012 e ele é seu único autor. 
+
+"Uma coisa que o Fernando tem é coragem", diz Elon Lages Lima. "Os trabalhos dele em geometria 
+diferencial são muito difíceis e ele os enfrenta como gente grande, sem mais respeito do que 
+merecem, nem reverenciai demais, nem irreverente." A primeira atitude paralisa; a segunda leva a 
+descuido e derrota. "O único respeito correto é o devido." 
+
+Codá não trabalha rápido. "Sempre tive medo da pressa e nunca fui muito fã da velocidade. Temia 
+que a gana de publicar demais pudesse me roubar tempo das questões mais profundas, nas quais 
+gostaria de pensar melhor." Poucos, mas maduros, dizia Gauss. O seu quarto grande resultado é, de 
+todos, sem dúvida o maior. Poucos feitos na geometria contemporânea chamaram mais a atenção 
+da comunidade matemática do que a solução da Conjectura de Willmore. 
+
+
+
+Ageometria é uma disciplina taxonômica. Preocupa-se com classificações e busca sempre 
+identificar o mais perfeito representante de cada família de objetos. Entre dois pontos, o objeto 
+ideal é uma reta. Não há outra figura geométrica que vá de A a B com mais economia de meios. 
+
+Fazer mais com menos recebe dos matemáticos os adjetivos elegante e belo, termos que podem ser 
+definidos matematicamente. Basta que se associe uma energia a cada objeto. Tome-se a esfera. Em 
+cada ponto de sua superfície há forças atuando para que ela mantenha sua forma. Amassada, 
+repuxada ou apertada, uma esfera de massinha continuará a se chamar esfera, apenas não mais 
+redondinha. A geometria demonstra que, dentre todas as esferas, a perfeitamente redonda é a que 
+despende menos energia para ser como é. (É por isso que todas as bolhas de sabão são 
+perfeitamente redondas.) 
+
+A conjectura proposta em 1965 pelo matemático inglês Thomas Willmore é um problema dessa 
+
+
+
+natureza. "Do ponto de vista estético", explica Codá, "é uma pergunta básica. Qual o melhor toro no 
+espaço euclidiano?" Toro, com ô fechado de touro (o marido da vaca), é um objeto central na 
+geometria. Diferencia-se da esfera por possuir uma cavidade, detalhe banal para nós, mas definitivo 
+para matemáticos. Pela seguinte razão: puxando daqui, esticando de lá, uma esfera de massinha se 
+transforma numa pirâmide, que se transforma num cubo, mas não num toro, pois aí seria 
+necessário o trauma de uma perfuração (ou de uma costura), o que violaria a integridade original 
+do objeto. Para a topologia, ramo da matemática que estuda a continuidade das formas, bolachas 
+não viram rosquinhas. 
+
+À diferença da esfera, que se apresenta à intuição como representante ideal de sua classe, no 
+mundo dos toros são infinitos os candidatos ao posto. Desde aquele que é quase todo orifício, como 
+um anel, àquele que é quase todo superfície e com um furinho de nada no meio, qualquer toro pode 
+ser o ideal. Qual deles, então? 
+
+Fernando Codá e André Neves se conheceram em Stanford e logo se tornaram grandes amigos, 
+talvez por serem tão complementares: o magrinho e o nem tanto, o introspectivo e o expansivo, o 
+silencioso e o falador. Neves sorri: "Ele nunca abre a boca sem pensar. Eu sou o contrário." 
+
+André Neves é casado com uma analista do banco Morgan Stanley. Com tempo mais flexível do que 
+ela, divide o dia entre a matemática no Imperial College e o leva e traz dos dois filhos pequenos, 
+tarefa da qual se desincumbe ziguezagueando por Londres de bicicleta. Simpático e bonachão, é o 
+tipo ideal na roda do bar. Chegou ao encontro pedalando na contramão e, salvo engano, usava uma 
+boina. 
+
+"Nunca tínhamos pensado no problema, é um bocadinho fora da nossa área", conta. "Fernando 
+estava me visitando e o que nos motivava era uma questão sem relação direta com a Willmore: 
+pensar como certo toro podia ser analisado de outra maneira, sem ser por meio da energia. 
+Vínhamos falando de forma diletante, a discutir ideias. A certa altura, descobrimos uma 
+propriedade interessante no objeto - uma propriedade que não estava descrita na literatura - e nos 
+pusemos a pensar nas consequências disso." Estavam numa conferência em Edimburgo quando se 
+deram conta de que podia ser exatamente o que faltava para resolver a conjectura. "Foi quando a 
+adrenalina bateu no teto", diz Neves. Ficaram calados, para "não dar o ouro aos bandidos". Quando 
+se despediram na estação de metrô, Codá pôs a mão no ombro do parceiro e disse: "André, nós 
+vamos provar a Willmore." 
+
+Passaram a se falar todos os dias pelo Skype, ele em Londres, Codá no Rio. Começava ali um 
+período de febre criativa de que nunca se esquecerão. Combinaram um novo encontro em Stanford, 
+onde Neves fizera o doutorado. A razão era prática: Stanford é o epicentro da análise geométrica, o 
+lugar ideal para discutir questões profundas e, quando necessário, tirar dúvidas. 
+
+Era preciso, todavia, cautela. Durante dois meses, viveram como agentes secretosde série cómica. 
+Na universidade, só falavam banalidades, como vai a vida e coisa e tal. "Os especialistas mundiais 
+estão lá, e muitos já haviam tentado resolver o problema", diz Neves. Não podiam bobear. "Em 
+matemática, o importante é a ideia, porque conta todos fazem." A conjectura era discutida num café 
+fora do campus. 
+
+Num churrasco em Stanford, enquanto todos comiam, os dois tomaram uma caneta e fizeram uma 
+última conta. Codá se lembra: "Foi quando descobrimos a relação entre duas coisas diferentes. Uma 
+era igual à outra, o que não faria sentido se a prova estivesse errada." Neves tirou os olhos do papel 
+
+
+
+e encarou o amigo. "Okay, provamos essa merda", disse, ou sussurrou. 
+
+"Eram tantas peças do quebra-cabeça se encaixando", diz Codá, "tantas coincidências que se 
+houvesse um erro ali seria um desperdício muito grande de matemática, uma maldade. Depois da 
+Willmore, li uma frase do Einstein. Dizia algo assim: 'O Senhor é sutil, mas não malicioso.'" 
+
+As ideias funcionavam, o resto era fazer conta - ou nem tanto. "Essa é uma coisa do Codá", explica 
+Neves. "Me impressiona como ele tem uma ideia e logo a exclui antes de fazer conta para ver se está 
+certa, trocando-a por outra, que também será abandonada sem ser posta à prova, na pura intuição 
+de que não serve, até chegar a uma derradeira, a qual ele finalmente testará. Isso é único. Não 
+conheço outro matemático que leve tanto tempo até fazer conta. Ele poupa esforço, quando faz a 
+conta bate certo." 
+
+Codá voltou para o Brasil. Ele e Neves retomaram as sessões de Skype, seis horas por dia, véspera 
+de Natal, Carnaval, sem parar. "Eu falava mais com o Fernando do que com minha mulher", 
+confessa Neves, meio sem graça. 
+
+Quando pesquisadores das ciências exatas querem divulgar resultados que ainda não foram aceitos 
+para publicação, costumam postar uma prévia num site chamado arXiv. É um modo de demarcar o 
+território. Codá ia ao site todos os dias atrás das palavras Willmore Conjecture, com medo de que 
+alguém chegasse antes à solução. Fazia seis meses que estavam mergulhados no problema. De 
+novembro a fevereiro de 2012, puseram no papel. "Acabamos de escrever à uma da manhã, ele lá, 
+eu aqui. Fernando ainda queria esperar um dia antes de mandar para o arXiv. Eu disse: 'Não. Game 
+overr 
+
+"Min-max theory and the Willmore conjecture" entrou na rede em 27 de fevereiro de 2012. Para 
+quem era do ramo, o título provocava perplexidade. Min-max era uma ferramenta relativamente 
+antiga e já meio em desuso. Em circulação havia trinta anos, aparentemente não se prestava à 
+tentativa de atacar o problema proposto por Willmore. Era como se Codá e Neves tivessem usado 
+uma chave de fenda para encher um pneu de bicicleta, ou ressuscitado o elixir paregórico para 
+curar a gripe asiática. Deu certo. 
+
+
+
+"Aprova é tão bonita, tão bonita...", repete Harold Rosenberg num inglês de forte sotaque nova- 
+iorquino. Um ano antes, no restaurante carioca, testemunhara em seu conterrâneo David Mumford 
+esse mesmo maravilhamento diante do resultado que Codá demonstrara à tarde, no auditório do 
+Impa. 
+
+Rosenberg, 72 anos, é um homem muito alto, de boa figura. Doutor por Berkeley, era moço quando 
+deixou para trás um cargo na Universidade Columbia e se mudou para Paris, onde os anos 60 lhe 
+pareceram irresistíveis. Fez carreira brilhante lá. Ao atingir a idade compulsória da aposentadoria, 
+decidiu, venturoso que é, aceitar um cargo no Impa. Richard Schoen, de Stanford, o considera 
+"provavelmente a figura mais importante na teoria geométrica das superfícies mínimas", uma área 
+clássica da geometria. 
+
+"No mês passado escrevi uma carta a um amigo", conta Rosenberg. "Começava assim: 'Em toda a 
+
+
+
+minha vida, fui arrebatado pela beleza de um trabalho matemático três vezes.'" As duas primeiras, 
+quando ainda era jovem. Eram trabalhos de autoria dos americanos John Milnor e Stephen Smale 
+que entrariam para a história da geometria da segunda metade do século passado. A carta 
+prosseguia: "Daí eu recebo esse trabalho do Fernando e do André. A beleza da prova e a construção 
+do argumento me deixaram absolutamente sem fala. E isso depois de uma longa carreira. Eu não 
+sou mais moço. Então ser impactado a esse ponto, sentir essa felicidade depois de ler um trabalho 
+matemático, é uma coisa muito poderosa." 
+
+Rosenberg tenta explicar: "São três ideias fundamentais e cada uma delas é obra de génio. A 
+primeira é relacionar o problema com questões de superfícies mínimas na esfera" - área em que ele 
+mesmo é especialista. "Ocorre que a Willmore não tem nada a ver com essas questões, a priori não 
+haveria a menor razão para relacionar as duas coisas. É estranho, muito estranho." 
+
+"É totalmente inesperado", espanta-se Manfredo do Carmo. "E como eles acharam que poderiam 
+resolver o problema sem atacá-lo diretamente não está claro para mim. Mas também, como pensam 
+os mutantes, não está claro para ninguém. O trabalho tem cerca de 100 páginas. Na introdução, 
+depois de apresentar o problema, Fernando e André passam a fazer outra coisa. Chega a cansar. 
+Você se pergunta: 'Quando o problema vai aparecer?'" (É o pano jogado sobre a mulher.) 
+
+"A segunda grande ideia", prossegue Rosenberg, "é descobrir por que diabos existe essa relação 
+entre a esfera e a energia do toro. Para investigar a natureza disso, eles têm a ideia de empregar 
+essa teoria min-max. E por fim, eles se perguntam: partindo de uma superfície mínima na esfera, e 
+deformando-a, como encontrar uma solução para a teoria min-max que equivalha ao toro ideal? É 
+uma impressionante sequência de ideias que funcionaram. Você olha e diz: 'Uau, fico contente de 
+estar nesse negócio.'" 
+
+Uma conjectura é uma hipótese que carece de confirmação; um teorema matemático, uma 
+declaração que permanecerá eternamente verdadeira, independente de lugar, tempo ou opinião. 
+
+Qual será o melhor toro no espaço euclidiano? Thomas Willmore encontrou a solução de sua 
+conjectura para um toro específico - o simétrico, denominado Toro de Clifford -, deixando em 
+aberto a solução para a infinidade de formas assimétricas que poderiam assumir uma configuração 
+de menor energia. Neves e Codá provaram que não, não poderiam: o Toro de Clifford é de fato o 
+melhor. Realizaram um trabalho de classificação completa. Apesar de serem infinitos, jamais 
+aparecerá um toro melhor. Não há mais mistério no mundo das rosquinhas. 
+
+
+
+"Todos os grandes tentaram resolver a Willmore", diz Rosenberg, citando uma lista de nomes. 
+Manfredo do Carmo, amigo de Yau, confirma. "Yau tentou e não conseguiu. Não pode haver elogio 
+maior." 
+
+O prestígio matemático se mede pelo que alguns chamam de crédito-teorema. Nessa moeda, a 
+Willmore é um patrimônio vultoso. "Eu já era matemático fazia cinco ou seis anos e ainda não tinha 
+resolvido um grande problema", diz Neves. "Até então, a comunidade nos tinha como gajos 
+competentes, aos quais ainda faltava um 'grande resultado'. E então aconteceu: nós cravamos." 
+
+
+
+Sem jeito, Codá mede cada palavra, vetando aquelas que possam sugerir empáfia: "Eu me interesso 
+por muitas coisas, não sou do tipo obcecado por matemática. Tinha medo de chegar aos 40, quando 
+ninguém mais é considerado promissor, sem o grande resultado de que o André falou. Os grandes 
+matemáticos ficam marcados por um ou dois teoremas. Nós viramos 'aqueles caras que provaram a 
+Willmore'." 
+
+Neves costumava fazer cerca de dez palestras por ano; nos três meses seguintes ao anúncio, pulou 
+para trinta. Para Codá foi igual. França, Alemanha, Espanha, Suíça, Itália, Estados Unidos 
+(Princeton, Columbia, Stanford, Duke). Em janeiro deste ano, foram convidados para participar de 
+um seminário na China, organizado por Yau. Codá não o conhecia. Haviam se sentado na última 
+fileira do auditório, com Schoen a duas cadeiras de distância, quando um vulto ocupou o assento 
+vazio no meio. Era Yau. O matemático se virou e disse: "O que vocês fizeram é muito bom." 
+
+Codá está a léguas do jovem matemático que se dizia perdido na volta de Cornell. Hoje, sabe 
+exatamente onde pisa e aonde vai. Não dirá com todas as letras, mas é evidente que pretende se 
+tornar um líder de seu campo. Richard Schoen diz que muito poucos matemáticos - "e nenhum de 
+sua idade" - têm uma compreensão tão profunda de certos pontos mais complexos da análise 
+geométrica. 
+
+Ele é ouvido. "A característica que mais chama atenção nele é a imensa autoridade com que fala 
+sobre matemática", diz Rosenberg. "Você sabe que o que ele dirá estará correto e será profundo. É 
+como estar com um príncipe. Quase nunca fala, a menos que seja uma joia matemática, o cerne da 
+questão. E ele só dirá o que sabe, nunca o que pode vir a ser verdade." 
+
+Numa publicação de 2013 em que a American Mathematical Society compila as contribuições 
+recentes de maior relevância para as ciências matemáticas (que abrangem não só a matemática 
+pura, mas campos inteiros da física), o capítulo dedicado à Conjectura de Willmore se segue ao da 
+detecção do bóson de Higgs. Era inevitável que resultados tão expressivos alertassem o mundo para 
+a existência de Fernando Codá. As ofertas de emprego não tardaram a chegar. Dentre elas, as de 
+Stanford, Princeton e Columbia. 
+
+
+
+André Neves, português, mora e trabalha em Londres. Já se acostumou a responder à imprensa de 
+seu país se pensa em voltar para lá. "Tenho amigos da Islândia e ninguém faz essa pergunta a eles. 
+Parte-se do princípio de que não queiram. No Brasil e em Portugal é diferente. É a terrinha." 
+
+Ao letrado que parte em direção a um país rico, apresenta-se o dilema de transferir o bem que 
+carrega consigo, sua instrução, de um lugar onde é escasso para outro onde existe em abundância. 
+Em meados deste ano, Fernando Codá se debatia com o dilema. "É importante que algumas pessoas 
+fiquem. Se todo mundo for embora..." No outro prato da balança, temia arrepender-se futuramente, 
+caso ficasse. A ida seria reversível; a recusa, não necessariamente. Passava os dias oscilando entre o 
+sentimento de deserção e o desejo de viver a experiência, que qualificava como "uma aventura". 
+
+Durante os meses seguintes, teve longas conversas com seus mentores. Todos, sem exceção, 
+deixaram-no à vontade para decidir. Era inegável, porém, que torciam por sua permanência. "Meu 
+desejo é secreto, mas adoraria que Fernando ficasse, pois ele é o coroamento de um esforço muito 
+
+
+
+grande para criar uma matemática autónoma no Brasil", disse Manfredo do Carmo à época. 
+
+Codá tem consciência aguda disso. Na entrevista que fez com Manfredo para o projeto de história 
+oral do Impa, instigou-o a falar das próprias escolhas. O velho professor poderia ter feito carreira 
+nos Estados Unidos e teria emprego fácil em qualquer grande universidade do país. 
+
+Colega de Manfredo na época, Rosenberg foi testemunha dessa decisão. "Estávamos em Berkeley e 
+um dia Manfredo me diz que queria voltar para o Brasil. 'Mas por quê?', eu me espantei. O Sputnik 
+estava em órbita, os Estados Unidos estavam pagando o que fosse para contratar os melhores 
+matemáticos." O assunto voltaria com Elon Lima, agora em Columbia. "Elon e eu dividíamos uma 
+sala e ele foi convidado a ensinar em Princeton. Recusou: 'No Brasil, eu posso mudar as coisas.'" E 
+de novo com Jacob Palis: "Eu sabia da matemática extraordinária que Jacob vinha produzindo em 
+Berkeley. Ele tomou a mesma decisão. Aquilo ficou na minha cabeça." 
+
+Em 1971 Rosenberg visitaria o Brasil: "Em pleno regime militar, e aí eu vi como eram difíceis as 
+condições aqui. O Impa era um lugarzinho de nada no Centro da cidade, com uma biblioteca 
+primitiva. E, apesar disso, Manfredo, Elon, Jacob, Peixoto, todos esses caras renunciavam a 
+empregos fantásticos nos Estados Unidos para criar uma instituição que só existia nos sonhos 
+deles. Eu era um jovem americano que pensava no trabalho apenas como benefício próprio. Essa 
+experiência me educou." 
+
+Seduzido pela aventura da matemática brasileira a ponto de se juntar a ela, Rosenberg era quem 
+mais lamentava a eventual partida de Codá. "Hoje esse país imenso tem universidades espalhadas 
+por todo canto. Elas precisam de matemáticos bem treinados que possam difundir o conhecimento 
+gerado aqui no Impa. Fernando pode formar gente capaz de mudar o futuro de todas essas cidades 
+onde a matemática ainda é praticamente embrionária." Dá um exemplo: "Um dos melhores alunos 
+do Fernando hoje é professor em São Luís. Um menino ainda que resolveu um teorema muito 
+bonito. Tentei convencê-lo a fazer pós-doc na Europa, mas ele preferiu voltar para o Maranhão. E 
+eu agora estou curiosíssimo para saber como a matemática se desenvolverá por lá e também se ele 
+conseguirá manter a alta qualidade da pesquisa que realizava aqui no Impa." 
+
+No lusco-fusco de seu escritório, Elon Lages Lima aponta uma fotografia na parede: "São os 
+primeiros presidentes da Sociedade Brasileira de Matemática: um judeu nascido na Alemanha, dois 
+alagoanos e dois cearenses." Lima é um dos alagoanos. "Ensinar na França ou em Princeton não é o 
+mesmo que ensinar no Brasil. Aqui você está desbravando. Lá, está contribuindo para solidificar o 
+que já está pronto. Com ou sem você, omundo segue do mesmo jeito." 
+
+
+
+Acasa dos pais de Codá fica num condomínio fechado. Severino Marques e Dilze Codá Marques são 
+nordestinos de pele morena e modos acolhedores. Ela é tímida. Ambos professores - ele de 
+estruturas de concreto armado, ela de engenharia civil -, sonhavam (ele principalmente) em ver os 
+filhos na mesma profissão. "Gustavo virou engenheiro", diz o pai todo prosa, referindo-se ao filho 
+do meio, como se o fato de o mais velho ter preferido ser doutor por Cornell, professor do Impa e 
+talvez de alguma venerável universidade americana representasse algum descaminho na história 
+familiar. 
+
+
+
+Na verdade, porém, seria incorreto não ver no orgulho paterno a manifestação de um amor 
+dispensado democraticamente a todos os filhos, sem juízo de mérito. O que, na família, não parece 
+difícil. A filha Clarissa é doutora em matemática aplicada pela PUC do Rio. O genro é doutor pelo 
+Impa, assim como a nora Ana Maria. "Costumo dizer que minha casa tem a maior densidade de 
+doutores da região", sorri Severino Marques, sem afetação, já indo à cozinha buscar o peixe que 
+assara para o jantar. 
+
+Fernando e Ana Maria Menezes de Jesus, de 26 anos, casaram-se este ano, em março. Sergipana, 
+nasceu num povoado em que a única escola termina na 4 a série. É esse o nível de instrução de seus 
+pais, pequenos agricultores que não pretendem andar de avião porque voar é coisa de passarinho e 
+que, a despeito da baixa escolaridade, tinham muito claro que era preciso dar estudo às quatro 
+filhas. Uma delas é mestra em química, outra é engenheira e a caçula está concluindo o ensino 
+médio. Ana Maria, a segunda filha, defendeu este ano sua tese em matemática pura. 
+
+Ela e Codá viajaram a Maceió em setembro, para discutir a decisão em família. Já haviam chegado a 
+uma conclusão e agora queriam submetê-la aos pais. 
+
+Numa mesa de bar na praia de Pajuçara, Codá disse: "Tomei a decisão há dois dias." Virou-se então 
+para o mar e em voz baixa repetiu: "É muito doloroso para mim sair assim. Não sei, é doloroso, é 
+doloroso..." Aceitara o convite de Princeton, para onde se mudará em setembro de 2014. Até lá, 
+ficará em Paris a convite da École Polytechnique. Ainda não havia comunicado a decisão ao Impa. 
+
+"Não quero passar a ideia de que estou abandonando, não é a minha intenção. Quero vir para cá o 
+mais que puder." Ensinara no Impa por dez anos. Voltara quando todos diziam que deveria 
+prolongar a estadia no exterior. Sempre olhando o mar, disse: "É, ao menos mostrei que é possível 
+voltar e fazer um bom trabalho, que não é suicídio. Meu objetivo nunca foi esse de receber ofertas. 
+Quando elas chegaram... Minha ligação com o Brasil não vai terminar, não. É muito forte." 
+
+E de novo mencionou Manfredo do Carmo, Elon Lages Lima e Jacob Palis. "Essa história do Brasil, 
+isso vem deles. Eu olho e fico com esse dever. Eles fizeram muito por mim, eu quero retribuir. De 
+lá, eu posso ajudar de outra maneira. Posso trazer alunos, levar gente para pós-docs, trazer gente 
+para ensinar aqui. E, se um dia eu decidir voltar, estarei com mais bagagem, vou poder fazer coisas 
+que seriam difíceis antes." 
+
+"No lugar dele eu teria feito a mesma coisa", Lima diria um mês mais tarde. "A oferta é tentadora: 
+200 mil dólares anuais, a posição permanente de professor titular, emprego para a Ana Maria... Em 
+parte, Princeton está de olho na Fields, que eu acho difícil o Fernando ganhar, não por causa das 
+qualidades dele, mas em função da questão política. Franceses e americanos sempre terão 
+vantagem." 
+
+Rosenberg acredita que a geração de Lima facilitou a saída de Codá. "A aposta dos mais velhos deu 
+certo. Olhe o Impa: ele é inacreditavelmente bom. O que se produz aqui se equipara a tudo que é 
+feito nos Estados Unidos e na Europa. Não temos o mesmo número de matemáticos de primeira 
+linha, mas temos os melhores. Veja esse rapaz russo que entrou aqui há pouco, o Misha 
+[Belolipetsky]: é um dos melhores e ensina aqui. Isso é obra dos velhos. Sacrificaram a carreira para 
+construir essa instituição. Fernando talvez pense: 'O Impa está feito, eles não precisam mais de 
+mim.' Não é simples para ele, sei como está sofrendo." 
+
+"É preciso que as pessoas compreendam", diz Hilário Alencar. "Eu falo que sou da Federal de 
+
+
+
+Alagoas, é uma coisa; que sou do Impa, é outra; que sou de Princeton, ainda outra..." Ademais, "no 
+fundo ninguém vai embora". 
+
+Mesmo depois de se fixar no Rio, Codá não cortou laços com a UFAL. Coopera com o Instituto de 
+Matemática da universidade - "é totalmente acessível", diz Krerley Oliveira - e há três anos ajuda o 
+amigo Marcos Petrúcio a organizar um workshop anual de geometria em Maceió. "A gente traz 
+matemáticos importantes para cá. Veio gente da École Polytechnique de Paris, do Institut Fourier 
+de Grenoble, do Imperial College de Londres, da Universidade de Granada. No ano que vem, já tem 
+gente de Stanford. Não tenho dúvida de que eles vêm por causa do Fernando." 
+
+Em parte, Codá escolheu Princeton, na Costa Leste, e não Stanford, onde tem mais relações, por ser 
+mais perto do Brasil. Na penumbra da sala, Elon Lages Lima sorri: "A dinastia alagoana do Impa se 
+manterá viva. Ele voltará." 
+
+
+
+Aconexão caiu mais de uma vez e a conversa por Skype avançava aos soluços. O jeito foi recorrer ao 
+telefone. Ivaldo Paz Nunes tem 31 anos. Formou-se doutor em 2011, orientado por Codá. Em maio 
+passado, reinstalou-se em São Luís para lecionar na Federal do Maranhão, de onde falava. É nele 
+que Rosenberg está de olho. A decisão de voltar foi "difícil, muito difícil". De manhã, Nunes 
+pensava uma coisa; à tarde, ouvia pessoas que lhe diziam o contrário; à noite, recebia conselhos que 
+se contrapunham a todo o resto. "Você é bombardeado." 
+
+Por que voltou? "Eu achava que tinha uma boa resposta, mas só agora começa a ficar mais claro." 
+Em primeiro lugar, a família. Depois, o desejo de "descobrir pessoas como eu, que possam sair, 
+aprender e retornar". A frase sai sem nenhumanota heróica. Nunes logo acrescenta: "O maior risco 
+é que vai afetar a minha produção científica. Aqui não existe uma comunidade consolidada. São 
+Luís é uma ilha e eu estou ilhado. Estou aqui há cinco meses. Não vou negar que já questionei mil 
+vezes se tomei a decisão correta." 
+
+
+
+Em setembro, Codá escreveu num e-mail: "João, fiz uma pequena pesquisa e descobri que de fato 
+formas toroides aparecem no mundo natural. As hemácias, por exemplo, assumem um formato de 
+toro na sua borda. Mas confesso que entendo muito pouco do assunto." André Neves também se 
+empolgara com o tema: "O lindo da matemática é que os cientistas forçaram uma forma toroidal em 
+membranas e as deixaram ao próprio destino. Aos poucos elas assumiram a forma ideal, a do Toro 
+de Clifford, e isso porque queriam usar a menor energia para serem elas mesmas." 
+
+Eugénio Calabi acha que a matemática é uma forma de ficção científica. A mente pensa sem pedir 
+nada de empréstimo ao mundo. "O que me atrai é poder trabalhar sem nenhum input da 
+realidade", diz Codá. 
+
+
+
+No entanto.. 
+
+
+
+Os gregos estudaram as formas elípticas simplesmente porque eram belas; 2 mil anos depois, 
+Kepler se deu conta de que essa abstração geométrica correspondia ao trajeto dos planetas em 
+torno do Sol. Riemann pensava apenas em matemática quando propôs a curvatura do espaço; 
+Einstein recorreu a ele para explicar o universo. 
+
+O mistério da matemática é por que ela descreve tão bem as leis do mundo natural. Não existe 
+rigorosamente nenhuma razão para tanto: "Matemática não é ciência", sustenta Manfredo do 
+Carmo. "A ciência começa com Galileu, é esse negócio de interrogar a natureza. A matemática 
+depende de padrões, de ordem, está muito mais perto da poesia. Existe um ensaio intitulado A 
+desarrazoada efetividade da matemática nas ciências naturais', escrito por um físico. Uma 
+beleza. Pi é a razão entre o diâmetro e a circunferência do círculo. Você vai ver, e n é um número- 
+chave no estudo das populações. Por que diabos a matemática funciona? É um milagre." 
+
+Diante disso, pode-se especular, temerariamente, que instantes depois do Big Bang o universo 
+buscou sua forma, encontrou-a no toro e, tal como as hemácias, acomodou-se na configuração 
+menos custosa - logo, mais bela - que a geometria lhe facultava. É bonito imaginar que vivemos e 
+morremos no toro perfeito de Fernando Codá Marques e André Neves. 
+

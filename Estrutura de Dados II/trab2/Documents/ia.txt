@@ -1,0 +1,27 @@
+Título: A Inevitável Vitória da Inteligência Artificial
+
+Palestrante: Prof. Fabio G. Cozman (http://sites.poli.usp.br/p/fabio.cozman/)
+
+Resumo: 
+Este seminário é baseado em uma mesa redonda ocorrida na Unicamp em 2013,
+sobre aplicações e futuro da inteligência artificial. Basicamente, por
+qualquer métrica que se possa tomar, o desenvolvimento de técnicas de
+inteligência artificial (não necessariamente similares a recursos da
+inteligência humana), é um enorme sucesso do ponto de vista tecnológico,
+econômico e social. Exemplos como a Google, ou a brasileira Buscapé, confirmam
+a importância de técnicas de tradução, interpretação, recomendação,
+classificação. Hoje assistimos à chegada de artefatos com capacidade de
+aprendizado e decisão que já reconhecemos como inteligentes. A vitória da
+tecnologia que nos apresenta auxiliares artificiais prestativos e, à sua
+maneira, inteligentes, é inevitável, e nenhum país pode considerar seu futuro
+sem uma discussão que inclua essa tecnologia.  Obviamente, devemos nos
+interessar em compreender essa nova forma de inteligência que nos rodeia.  E
+como chegamos a esse ponto? Dois fenômenos foram essenciais nos últimos 15
+anos. Primeiro, o aumento de capacidade computacional e da tecnologia de
+sensores. Segundo, a crescente disponibilidade de grandes massas de dados, que
+permitem o ajuste fino de modelos complexos. Esse seminário procura analisar a
+evolução da IA nos últimos 15 anos, verificar o ponto em que estamos, e
+sugerir alguns pontos que merecem atenção tecnológica e social no futuro.
+
+Fabio G. Cozman é Phd pela Carnegie Mellon University (1997), é professor
+titular da Escola Politécnica, e presidente da comissão especial de IA da SBC.
