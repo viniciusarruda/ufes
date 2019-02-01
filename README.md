@@ -19,7 +19,6 @@ Here are presented some assignments done during my undergraduate course in compu
 	|- trab4: Implementation of a gameplay (2D).
 	|- trab5: Implementation of a shooting game (3D).
 |- Estrutura de Dados II
-	|- solucoes do com diferentes algo O Problema do Caixeiro Viajante exato, heu NN, heuristica 2-opt, heur convex hull
 	|- The travelling salesman problem: Solutions with the optimal algorithm and the heuristics nearest neighbor, 2-opt and convex hull. 
 	|- Implementation of a search engine comparing the algorithms hash table (linear, rehash and chained) and B-tree.
 	|- Implementation of a job scheduler comparing the algorithms beam search and branch and bound.
