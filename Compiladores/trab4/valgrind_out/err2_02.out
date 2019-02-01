@@ -1,0 +1,21 @@
+==14713== Memcheck, a memory error detector
+==14713== Copyright (C) 2002-2013, and GNU GPL'd, by Julian Seward et al.
+==14713== Using Valgrind-3.10.1 and LibVEX; rerun with -h for copyright info
+==14713== Command: ./trab4
+==14713== 
+PARSE ERROR (10): syntax error, unexpected $end
+==14713== 
+==14713== HEAP SUMMARY:
+==14713==     in use at exit: 16,975 bytes in 34 blocks
+==14713==   total heap usage: 35 allocs, 1 frees, 16,977 bytes allocated
+==14713== 
+==14713== LEAK SUMMARY:
+==14713==    definitely lost: 40 bytes in 2 blocks
+==14713==    indirectly lost: 84 bytes in 7 blocks
+==14713==      possibly lost: 0 bytes in 0 blocks
+==14713==    still reachable: 16,851 bytes in 25 blocks
+==14713==         suppressed: 0 bytes in 0 blocks
+==14713== Rerun with --leak-check=full to see details of leaked memory
+==14713== 
+==14713== For counts of detected and suppressed errors, rerun with: -v
+==14713== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

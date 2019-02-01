@@ -1,0 +1,251 @@
+==18878== Memcheck, a memory error detector
+==18878== Copyright (C) 2002-2013, and GNU GPL'd, by Julian Seward et al.
+==18878== Using Valgrind-3.10.1 and LibVEX; rerun with -h for copyright info
+==18878== Command: ./trab3
+==18878== 
+SEMANTIC ERROR (9): function 'sum' was called with 1 arguments but declared with 2 parameters.
+==18878== 
+==18878== HEAP SUMMARY:
+==18878==     in use at exit: 17,233 bytes in 48 blocks
+==18878==   total heap usage: 51 allocs, 3 frees, 17,239 bytes allocated
+==18878== 
+==18878== 4 bytes in 1 blocks are still reachable in loss record 1 of 35
+==18878==    at 0x4C2AB80: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18878==    by 0x403981: yylex (scanner.l:58)
+==18878==    by 0x40216F: yyparse (parser.c:1478)
+==18878==    by 0x4035A5: main (parser.y:218)
+==18878== 
+==18878== 8 bytes in 1 blocks are still reachable in loss record 2 of 35
+==18878==    at 0x4C2AB80: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18878==    by 0x405036: yyalloc (scanner.c:1978)
+==18878==    by 0x404B43: yyensure_buffer_stack (scanner.c:1675)
+==18878==    by 0x40367A: yylex (scanner.c:759)
+==18878==    by 0x40216F: yyparse (parser.c:1478)
+==18878==    by 0x4035A5: main (parser.y:218)
+==18878== 
+==18878== 8 bytes in 1 blocks are still reachable in loss record 3 of 35
+==18878==    at 0x4C2AB80: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18878==    by 0x400CFF: new_node (ast.c:30)
+==18878==    by 0x402AF7: yyparse (parser.y:146)
+==18878==    by 0x4035A5: main (parser.y:218)
+==18878== 
+==18878== 8 bytes in 1 blocks are still reachable in loss record 4 of 35
+==18878==    at 0x4C2AB80: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18878==    by 0x400CFF: new_node (ast.c:30)
+==18878==    by 0x402F6B: yyparse (parser.y:199)
+==18878==    by 0x4035A5: main (parser.y:218)
+==18878== 
+==18878== 16 bytes in 1 blocks are still reachable in loss record 5 of 35
+==18878==    at 0x4C2AB80: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18878==    by 0x405089: new_table (table.c:61)
+==18878==    by 0x403599: main (parser.y:216)
+==18878== 
+==18878== 16 bytes in 1 blocks are still reachable in loss record 6 of 35
+==18878==    at 0x4C2AB80: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18878==    by 0x401394: new_node (list.c:44)
+==18878==    by 0x401400: append (list.c:55)
+==18878==    by 0x4025FA: yyparse (parser.y:90)
+==18878==    by 0x4035A5: main (parser.y:218)
+==18878== 
+==18878== 16 bytes in 1 blocks are still reachable in loss record 7 of 35
+==18878==    at 0x4C2AB80: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18878==    by 0x401394: new_node (list.c:44)
+==18878==    by 0x401400: append (list.c:55)
+==18878==    by 0x4025BB: yyparse (parser.y:89)
+==18878==    by 0x4035A5: main (parser.y:218)
+==18878== 
+==18878== 16 bytes in 1 blocks are still reachable in loss record 8 of 35
+==18878==    at 0x4C2AB80: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18878==    by 0x400C8E: new_node (ast.c:24)
+==18878==    by 0x402E57: yyparse (parser.y:191)
+==18878==    by 0x4035A5: main (parser.y:218)
+==18878== 
+==18878== 16 bytes in 1 blocks are still reachable in loss record 9 of 35
+==18878==    at 0x4C2AB80: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18878==    by 0x400CFF: new_node (ast.c:30)
+==18878==    by 0x402E57: yyparse (parser.y:191)
+==18878==    by 0x4035A5: main (parser.y:218)
+==18878== 
+==18878== 16 bytes in 1 blocks are still reachable in loss record 10 of 35
+==18878==    at 0x4C2AB80: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18878==    by 0x400C8E: new_node (ast.c:24)
+==18878==    by 0x402AF7: yyparse (parser.y:146)
+==18878==    by 0x4035A5: main (parser.y:218)
+==18878== 
+==18878== 16 bytes in 1 blocks are still reachable in loss record 11 of 35
+==18878==    at 0x4C2AB80: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18878==    by 0x401394: new_node (list.c:44)
+==18878==    by 0x401400: append (list.c:55)
+==18878==    by 0x4027D1: yyparse (parser.y:110)
+==18878==    by 0x4035A5: main (parser.y:218)
+==18878== 
+==18878== 16 bytes in 1 blocks are still reachable in loss record 12 of 35
+==18878==    at 0x4C2AB80: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18878==    by 0x400C8E: new_node (ast.c:24)
+==18878==    by 0x402496: yyparse (parser.y:61)
+==18878==    by 0x4035A5: main (parser.y:218)
+==18878== 
+==18878== 16 bytes in 1 blocks are still reachable in loss record 13 of 35
+==18878==    at 0x4C2AB80: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18878==    by 0x401394: new_node (list.c:44)
+==18878==    by 0x401400: append (list.c:55)
+==18878==    by 0x402447: yyparse (parser.y:57)
+==18878==    by 0x4035A5: main (parser.y:218)
+==18878== 
+==18878== 16 bytes in 1 blocks are still reachable in loss record 14 of 35
+==18878==    at 0x4C2AB80: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18878==    by 0x401394: new_node (list.c:44)
+==18878==    by 0x401400: append (list.c:55)
+==18878==    by 0x4055E2: add_scalar (table.c:239)
+==18878==    by 0x40270A: yyparse (parser.y:104)
+==18878==    by 0x4035A5: main (parser.y:218)
+==18878== 
+==18878== 16 bytes in 1 blocks are still reachable in loss record 15 of 35
+==18878==    at 0x4C2AB80: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18878==    by 0x401394: new_node (list.c:44)
+==18878==    by 0x401400: append (list.c:55)
+==18878==    by 0x4026D1: yyparse (parser.y:100)
+==18878==    by 0x4035A5: main (parser.y:218)
+==18878== 
+==18878== 16 bytes in 1 blocks are still reachable in loss record 16 of 35
+==18878==    at 0x4C2AB80: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18878==    by 0x400C8E: new_node (ast.c:24)
+==18878==    by 0x402F6B: yyparse (parser.y:199)
+==18878==    by 0x4035A5: main (parser.y:218)
+==18878== 
+==18878== 16 bytes in 1 blocks are still reachable in loss record 17 of 35
+==18878==    at 0x4C2AB80: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18878==    by 0x401394: new_node (list.c:44)
+==18878==    by 0x401400: append (list.c:55)
+==18878==    by 0x402CD6: yyparse (parser.y:178)
+==18878==    by 0x4035A5: main (parser.y:218)
+==18878== 
+==18878== 19 bytes in 6 blocks are still reachable in loss record 18 of 35
+==18878==    at 0x4C2AB80: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18878==    by 0x4EBFB49: strdup (strdup.c:42)
+==18878==    by 0x4039ED: yylex (scanner.l:59)
+==18878==    by 0x40216F: yyparse (parser.c:1478)
+==18878==    by 0x4035A5: main (parser.y:218)
+==18878== 
+==18878== 24 bytes in 1 blocks are still reachable in loss record 19 of 35
+==18878==    at 0x4C2AB80: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18878==    by 0x401305: new_list (list.c:25)
+==18878==    by 0x4050C1: new_table (table.c:63)
+==18878==    by 0x403599: main (parser.y:216)
+==18878== 
+==18878== 24 bytes in 1 blocks are still reachable in loss record 20 of 35
+==18878==    at 0x4C2AB80: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18878==    by 0x401305: new_list (list.c:25)
+==18878==    by 0x4050CD: new_table (table.c:64)
+==18878==    by 0x403599: main (parser.y:216)
+==18878== 
+==18878== 24 bytes in 1 blocks are still reachable in loss record 21 of 35
+==18878==    at 0x4C2AB80: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18878==    by 0x401305: new_list (list.c:25)
+==18878==    by 0x4025D7: yyparse (parser.y:90)
+==18878==    by 0x4035A5: main (parser.y:218)
+==18878== 
+==18878== 24 bytes in 1 blocks are still reachable in loss record 22 of 35
+==18878==    at 0x4C2AB80: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18878==    by 0x401305: new_list (list.c:25)
+==18878==    by 0x4027AE: yyparse (parser.y:110)
+==18878==    by 0x4035A5: main (parser.y:218)
+==18878== 
+==18878== 24 bytes in 1 blocks are still reachable in loss record 23 of 35
+==18878==    at 0x4C2AB80: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18878==    by 0x400CFF: new_node (ast.c:30)
+==18878==    by 0x402496: yyparse (parser.y:61)
+==18878==    by 0x4035A5: main (parser.y:218)
+==18878== 
+==18878== 24 bytes in 1 blocks are still reachable in loss record 24 of 35
+==18878==    at 0x4C2AB80: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18878==    by 0x401305: new_list (list.c:25)
+==18878==    by 0x402424: yyparse (parser.y:57)
+==18878==    by 0x4035A5: main (parser.y:218)
+==18878== 
+==18878== 24 bytes in 1 blocks are still reachable in loss record 25 of 35
+==18878==    at 0x4C2AB80: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18878==    by 0x401305: new_list (list.c:25)
+==18878==    by 0x4026AE: yyparse (parser.y:100)
+==18878==    by 0x4035A5: main (parser.y:218)
+==18878== 
+==18878== 24 bytes in 1 blocks are still reachable in loss record 26 of 35
+==18878==    at 0x4C2AB80: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18878==    by 0x401305: new_list (list.c:25)
+==18878==    by 0x402CB3: yyparse (parser.y:178)
+==18878==    by 0x4035A5: main (parser.y:218)
+==18878== 
+==18878== 24 bytes in 3 blocks are still reachable in loss record 27 of 35
+==18878==    at 0x4C2AB80: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18878==    by 0x400CFF: new_node (ast.c:30)
+==18878==    by 0x4028C6: yyparse (parser.y:126)
+==18878==    by 0x4035A5: main (parser.y:218)
+==18878== 
+==18878== 32 bytes in 2 blocks are still reachable in loss record 28 of 35
+==18878==    at 0x4C2AB80: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18878==    by 0x401394: new_node (list.c:44)
+==18878==    by 0x401400: append (list.c:55)
+==18878==    by 0x4055E2: add_scalar (table.c:239)
+==18878==    by 0x40262F: yyparse (parser.y:94)
+==18878==    by 0x4035A5: main (parser.y:218)
+==18878== 
+==18878== 32 bytes in 2 blocks are still reachable in loss record 29 of 35
+==18878==    at 0x4C2AB80: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18878==    by 0x401394: new_node (list.c:44)
+==18878==    by 0x401400: append (list.c:55)
+==18878==    by 0x40556D: add_function (table.c:224)
+==18878==    by 0x4024E6: yyparse (parser.y:65)
+==18878==    by 0x4035A5: main (parser.y:218)
+==18878== 
+==18878== 40 bytes in 1 blocks are still reachable in loss record 30 of 35
+==18878==    at 0x4C2AB80: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18878==    by 0x405143: new_symbol (table.c:83)
+==18878==    by 0x4055B7: add_scalar (table.c:236)
+==18878==    by 0x40270A: yyparse (parser.y:104)
+==18878==    by 0x4035A5: main (parser.y:218)
+==18878== 
+==18878== 48 bytes in 3 blocks are still reachable in loss record 31 of 35
+==18878==    at 0x4C2AB80: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18878==    by 0x400C8E: new_node (ast.c:24)
+==18878==    by 0x4028C6: yyparse (parser.y:126)
+==18878==    by 0x4035A5: main (parser.y:218)
+==18878== 
+==18878== 64 bytes in 1 blocks are still reachable in loss record 32 of 35
+==18878==    at 0x4C2AB80: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18878==    by 0x405036: yyalloc (scanner.c:1978)
+==18878==    by 0x4046DC: yy_create_buffer (scanner.c:1510)
+==18878==    by 0x4036A4: yylex (scanner.c:761)
+==18878==    by 0x40216F: yyparse (parser.c:1478)
+==18878==    by 0x4035A5: main (parser.y:218)
+==18878== 
+==18878== 80 bytes in 2 blocks are still reachable in loss record 33 of 35
+==18878==    at 0x4C2AB80: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18878==    by 0x405143: new_symbol (table.c:83)
+==18878==    by 0x4055B7: add_scalar (table.c:236)
+==18878==    by 0x40262F: yyparse (parser.y:94)
+==18878==    by 0x4035A5: main (parser.y:218)
+==18878== 
+==18878== 80 bytes in 2 blocks are still reachable in loss record 34 of 35
+==18878==    at 0x4C2AB80: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18878==    by 0x405143: new_symbol (table.c:83)
+==18878==    by 0x40553D: add_function (table.c:220)
+==18878==    by 0x4024E6: yyparse (parser.y:65)
+==18878==    by 0x4035A5: main (parser.y:218)
+==18878== 
+==18878== 16,386 bytes in 1 blocks are still reachable in loss record 35 of 35
+==18878==    at 0x4C2AB80: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18878==    by 0x405036: yyalloc (scanner.c:1978)
+==18878==    by 0x404713: yy_create_buffer (scanner.c:1519)
+==18878==    by 0x4036A4: yylex (scanner.c:761)
+==18878==    by 0x40216F: yyparse (parser.c:1478)
+==18878==    by 0x4035A5: main (parser.y:218)
+==18878== 
+==18878== LEAK SUMMARY:
+==18878==    definitely lost: 0 bytes in 0 blocks
+==18878==    indirectly lost: 0 bytes in 0 blocks
+==18878==      possibly lost: 0 bytes in 0 blocks
+==18878==    still reachable: 17,233 bytes in 48 blocks
+==18878==         suppressed: 0 bytes in 0 blocks
+==18878== 
+==18878== For counts of detected and suppressed errors, rerun with: -v
+==18878== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
